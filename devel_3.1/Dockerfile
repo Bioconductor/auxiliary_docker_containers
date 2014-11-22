@@ -1,10 +1,13 @@
 FROM ubuntu:latest
 
-RUN apt-get update -qq && apt-get dist-upgrade -y
+RUN DEBIAN_FRONTEND=noninteractive \
+    apt-get update -qq && apt-get dist-upgrade -y
 
-RUN apt-get build-dep -y r-base
+RUN DEBIAN_FRONTEND=noninteractive \
+    apt-get build-dep -y r-base
 
-RUN apt-get install -y \
+RUN DEBIAN_FRONTEND=noninteractive \
+    apt-get install -y \
     curl \
     gdb \
     libcurl4-openssl-dev \
