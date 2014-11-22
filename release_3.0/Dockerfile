@@ -2,14 +2,14 @@ FROM ubuntu:latest
 
 RUN apt-get update -qq && apt-get dist-upgrade -y
 
+RUN apt-get build-dep -y r-base
+
 RUN apt-get install -y \
     curl \
     gdb \
     libcurl4-openssl-dev \
     libxml2-dev \
     valgrind
-
-RUN apt-get build-dep -y r-base
 
 RUN rm -rf /tmp/R-source && \
     mkdir /tmp/R-source && \
