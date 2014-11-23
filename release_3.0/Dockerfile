@@ -26,5 +26,8 @@ RUN rm -rf /tmp/R-source && \
 
 RUN R -e "source('http://bioconductor.org/biocLite.R')"
 RUN echo "library(BiocInstaller)" > /root/.Rprofile
+# uncomment the following if there is an older (than release) bioc that
+# runs in this same version of R
+# RUN R -e "biocLite('BiocUpgrade')"
 
 
