@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update -qq && apt-get dist-upgrade -y
@@ -19,8 +19,8 @@ RUN DEBIAN_FRONTEND=noninteractive \
 
 RUN rm -rf /tmp/R-source && \
     mkdir /tmp/R-source && \
-    curl -SL ftp://ftp.stat.math.ethz.ch/Software/R/R-devel.tar.gz && \
-    tar -xJC /tmp/R-source && \
+    curl -SL ftp://ftp.stat.math.ethz.ch/Software/R/R-devel.tar.gz | \
+    tar -xzC /tmp/R-source && \
     cd /tmp/R-source/R-* && \
     ./configure --enable-R-shlib && \
     make && \

@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update -qq && apt-get dist-upgrade -y
@@ -16,8 +16,8 @@ RUN DEBIAN_FRONTEND=noninteractive \
 
 RUN rm -rf /tmp/R-source && \
     mkdir /tmp/R-source && \
-    curl -sL http://cran.r-project.org/src/base/R-latest.tar.gz && \
-    tar -xJC /tmp/R-source && \
+    curl -sL http://cran.r-project.org/src/base/R-latest.tar.gz | \
+    tar -xzC /tmp/R-source && \
     cd /tmp/R-source/R-* && \
     ./configure --enable-R-shlib && \
     make && \
