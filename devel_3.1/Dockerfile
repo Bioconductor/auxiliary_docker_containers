@@ -26,7 +26,7 @@ RUN rm -rf /tmp/R-source && mkdir /tmp/R-source
 # FTP URLs. 
 ADD http://s3.amazonaws.com/r-devel-source/R-devel.tar.gz /tmp/R-source/
 
-RUN cd /tmp/R-source && 
+RUN cd /tmp/R-source && \
     tar -zxf /tmp/R-source/*.tar.gz && \
     rm *.tar.gz && \
     cd R-* && \
