@@ -14,11 +14,13 @@ RUN DEBIAN_FRONTEND=noninteractive \
     libxml2-dev \
     valgrind
 
-RUN rm -rf /tmp/R-source && \
-    mkdir /tmp/R-source && \
-    curl -sL http://cran.r-project.org/src/base/R-latest.tar.gz | \
-    tar -xzC /tmp/R-source && \
-    cd /tmp/R-source/R-* && \
+RUN rm -rf /tmp/R-source && mkdir /tmp/R-source
+
+ADD http://cran.r-project.org/src/base/R-latest.tar.gz /tmp/R-source/
+
+RUN cd /tmp/R-source && tar -zxf /tmp/R-source/*.tar.gz && \
+    rm *.tar.gz && \
+    cd R-* && \
     ./configure --enable-R-shlib && \
     make && \
     make install
