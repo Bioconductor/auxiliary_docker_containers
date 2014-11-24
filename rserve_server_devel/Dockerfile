@@ -9,6 +9,7 @@ EXPOSE 6311
 RUN mkdir -p /var/log/supervisor
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY rserve.conf /rserve.conf
 
 CMD ["/usr/bin/supervisord"] 
 
@@ -17,5 +18,4 @@ CMD ["/usr/bin/supervisord"]
 # docker run -d --name server dtenenba/rserve_server_devel
 
 # when done:
-# docker stop server
-# docker rm server
+# docker rm -f server
