@@ -18,7 +18,8 @@ RUN rm -rf /tmp/R-source && mkdir /tmp/R-source
 
 ADD http://cran.r-project.org/src/base/R-latest.tar.gz /tmp/R-source/
 
-RUN cd /tmp/R-source && tar -zxf /tmp/R-source/*.tar.gz && \
+RUN cd /tmp/R-source && 
+    tar -zxf /tmp/R-source/*.tar.gz && \
     rm *.tar.gz && \
     cd R-* && \
     ./configure --enable-R-shlib && \
