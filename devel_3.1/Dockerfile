@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER dtenenba@fredhutch.org
+
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update -qq && apt-get dist-upgrade -y
 

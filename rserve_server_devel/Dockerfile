@@ -1,5 +1,7 @@
 FROM dtenenba/devel_3.1
 
+MAINTAINER dtenenba@fredhutch.org
+
 RUN R -e "biocLite(c('Rserve','IRanges'))"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y supervisor telnet

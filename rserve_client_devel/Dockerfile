@@ -1,5 +1,7 @@
 FROM dtenenba/devel_3.1
 
+MAINTAINER dtenenba@fredhutch.org
+
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y telnet
 
 RUN R -e "biocLite('RSclient')"
