@@ -28,7 +28,7 @@ Then you can find out what port the website is running on with the command:
 
 This will show something like:
 
-   3000/tcp -> 0.0.0.0:49153
+    3000/tcp -> 0.0.0.0:49153
 
 The port number that's not 3000 (in this case 49153) will vary.
 
