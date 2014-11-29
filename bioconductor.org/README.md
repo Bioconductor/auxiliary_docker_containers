@@ -16,6 +16,10 @@ In order to run this container, do the following:
 The first time this command is run, it will pull down the `dtenenba/bioconductor.org`
 image which may take a few moments. 
 
+(If you want to view/edit the Dockerfile that produced this image, along with 
+this file, go to
+[https://github.com/dtenenba/bioc_docker/tree/master/bioconductor.org](https://github.com/dtenenba/bioc_docker/tree/master/bioconductor.org)).
+
 By default (if you don't specify a command to run) the container will build the website.
 
 Then you can find out what port the website is running on with the command:
