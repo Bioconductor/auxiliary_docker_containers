@@ -6,11 +6,16 @@ EXPOSE 3000
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update && apt-get dist-upgrade -y && apt-get install -y \
-    g++ libsqlite3-dev make patch ruby ruby-dev # python pip ?
+    curl g++ libsqlite3-dev make patch python ruby ruby-dev  rsync
+
+RUN curl https://bootstrap.pypa.io/get-pip.py | python && \
+    pip install --upgrade google-api-python-client
+RUM pip install relativedelta
+RUN pip install python-dateutil
 
 # RUN pip install apiclient? # for dashboard stuff
 
-RUN     gem install --no-ri --no-rdoc nanoc nanoc3 rdiscount rack mime-types haml \
+RUN     gem install --no-ri --no-rdoc nanoc nanoc3 pry rdiscount rack mime-types haml \
       rack-cache httparty rake sass kramdown mechanize json nokogiri \
       rgl sqlite3 adsf twitter aws-sdk hpricot uuid htmlentities
 
