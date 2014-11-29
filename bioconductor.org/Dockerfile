@@ -10,7 +10,6 @@ RUN DEBIAN_FRONTEND=noninteractive \
 
 RUN curl https://bootstrap.pypa.io/get-pip.py | python && \
     pip install --upgrade google-api-python-client
-RUN pip install relativedelta
 RUN pip install python-dateutil
 
 # RUN pip install apiclient? # for dashboard stuff
