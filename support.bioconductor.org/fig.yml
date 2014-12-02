@@ -1,0 +1,33 @@
+# either set LOCATION_OF_BIOSTAR_CODE or check out code (or symlink to it) in ./biostar-central
+# hopefully symlinks will work
+# environment:
+#     LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
+#     POSTGRES_PASSWORD: mypostgrespassword
+#     POSTGRES_USER: postgres
+
+db:
+    environment:
+#        LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
+        POSTGRES_PASSWORD: mypostgrespassword
+        POSTGRES_USER: postgres
+        POSTGRESQL_HOST: db
+    image: dtenenba/postgres
+
+    ports:
+        - "5432:5432"
+web:
+    environment:
+        # LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
+        POSTGRES_PASSWORD: mypostgrespassword
+        POSTGRES_USER: postgres
+        POSTGRESQL_HOST: db
+    image: dtenenba/support.bioconductor.org
+    # build: .
+    volumes:
+        - biostar-central:/biostar-central
+#    command: "bash -c 'source /conf/default.env &&  && ./biostar.sh init import index run '"
+    command: /conf/start.sh
+    ports:
+        - 8080:8080
+    links:
+        - db
