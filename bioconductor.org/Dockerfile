@@ -4,8 +4,6 @@ MAINTAINER dtenenba@fredhutch.org
 
 EXPOSE 3000
 
-RUN apt-get install -y thispackagedoesnotexist
-
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update && apt-get dist-upgrade -y && apt-get install -y \
     curl g++ libsqlite3-dev make patch python ruby ruby-dev  rsync
