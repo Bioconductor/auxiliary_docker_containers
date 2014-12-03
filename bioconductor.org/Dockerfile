@@ -16,7 +16,7 @@ RUN pip install python-dateutil
 
 RUN     gem install --no-ri --no-rdoc nanoc nanoc3 pry rdiscount rack mime-types haml \
       rack-cache httparty rake sass kramdown mechanize json nokogiri \
-      rgl sqlite3 adsf twitter aws-sdk hpricot uuid htmlentities
+      rgl sqlite3 adsf twitter aws-sdk hpricot uuid htmlentities redis
 
 VOLUME /bioconductor.org
 
