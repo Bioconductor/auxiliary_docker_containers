@@ -7,4 +7,8 @@ echo "sourcing default.env"
 echo "pwd is `pwd`"
 echo "ls is `ls`"
 echo "running ./biostar.sh"
-./biostar.sh init import index run
+
+echo "create user biostar password '$POSTGRES_PASSWORD';create database biostar owner biostar;" | psql -U postgres -h db
+
+#./biostar.sh init import index run
+./biostar.sh init import run

@@ -27,9 +27,13 @@ RUN cd /tmp && curl -O \
     https://raw.githubusercontent.com/Bioconductor/support.bioconductor.org/master/conf/requirements/base.txt && \
     pip install --upgrade -r base.txt && cd /
 
-#WORKDIR /biostar-central
+RUN pip install --upgrade ipython
+RUN pip install --upgrade elasticsearch
+
+WORKDIR /biostar-central
 
 ADD start.sh /conf/start.sh
 
 #CMD source /conf/default.env && ./biostar.sh init import index run
 
+CMD /conf/start.sh

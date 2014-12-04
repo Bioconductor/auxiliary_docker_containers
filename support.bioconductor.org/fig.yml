@@ -7,11 +7,11 @@
 
 db:
     environment:
-#        LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
-        POSTGRES_PASSWORD: mypostgrespassword
-        POSTGRES_USER: postgres
-        POSTGRESQL_HOST: db
-    image: dtenenba/postgres
+##        LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
+        # POSTGRES_PASSWORD: mypostgrespassword
+        # POSTGRES_USER: postgres
+        # POSTGRESQL_HOST: db
+    image: training/postgres
 
     ports:
         - "5432:5432"
@@ -21,6 +21,7 @@ web:
         POSTGRES_PASSWORD: mypostgrespassword
         POSTGRES_USER: postgres
         POSTGRESQL_HOST: db
+        POSTGRES_DATABASE_NAME: biostar
     image: dtenenba/support.bioconductor.org
     # build: .
     volumes:

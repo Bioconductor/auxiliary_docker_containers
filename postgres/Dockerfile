@@ -1,8 +1,8 @@
 FROM postgres
 
-RUN mkdir -p /var/lib/postgres/data/
-RUN echo "host all all 0.0.0.0/0 trust" > /var/lib/postgres/data/pg_hba.conf
-RUN chown -R postgres /var/lib/postgres
+RUN echo "host all all 0.0.0.0/0 trust" >> \
+    /var/lib/postgres/data/pg_hba.conf
+
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
