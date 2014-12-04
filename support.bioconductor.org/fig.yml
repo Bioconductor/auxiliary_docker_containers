@@ -38,4 +38,4 @@ web:
 # in window 1:
 #  docker run --rm --name db training/postgres
 # in window 2:
-# docker run -ti --rm -e POSTGRES_PASSWORD=mypostgrespassword -e POSTGRES_USER=postgres -e POSTGRESQL_HOST=db -e POSTGRES_DATABASE_NAME=biostar --link db:db -v `pwd`/biostar-central:/biostar-central  -P dtenenba/support.bioconductor.org /conf/start.sh
+# docker run -ti --rm -e POSTGRES_PASSWORD=mypostgrespassword -e POSTGRES_USER=postgres -e POSTGRESQL_HOST=db -e POSTGRES_DATABASE_NAME=biostar --link db:db -v `pwd`/biostar-central:/biostar-central  -P dtenenba/support.bioconductor.org:so /conf/start.sh
