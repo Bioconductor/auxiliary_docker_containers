@@ -13,8 +13,8 @@ db:
         # POSTGRESQL_HOST: db
     image: training/postgres
 
-    ports:
-        - "5432:5432"
+    # ports:
+    #     - "5432:5432"
 web:
     environment:
         # LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
@@ -27,7 +27,7 @@ web:
     volumes:
         - biostar-central:/biostar-central
 #    command: "bash -c 'source /conf/default.env &&  && ./biostar.sh init import index run '"
-    command: bash -c "/conf/start.sh"
+    command: /conf/start.sh
     ports:
         - 8080:8080
     links:
