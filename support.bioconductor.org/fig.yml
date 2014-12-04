@@ -22,7 +22,7 @@ web:
         POSTGRES_USER: postgres
         POSTGRESQL_HOST: db
         POSTGRES_DATABASE_NAME: biostar
-    image: dtenenba/support.bioconductor.org
+    image: dtenenba/support.bioconductor.org:so
     # build: .
     volumes:
         - biostar-central:/biostar-central
