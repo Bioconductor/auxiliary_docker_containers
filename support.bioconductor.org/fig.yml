@@ -29,7 +29,7 @@ web:
 #    command: "bash -c 'source /conf/default.env &&  && ./biostar.sh init import index run '"
     command: /conf/start.sh
     ports:
-        - 8080:8080
+        - "8080" # a random host port _should_ be chosen
     links:
         - db
 
