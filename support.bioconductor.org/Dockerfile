@@ -27,8 +27,7 @@ RUN cd /tmp && curl -O \
     https://raw.githubusercontent.com/Bioconductor/support.bioconductor.org/master/conf/requirements/base.txt && \
     pip install --upgrade -r base.txt && cd /
 
-RUN pip install --upgrade ipython
-RUN pip install --upgrade elasticsearch
+RUN pip install --upgrade ipython elasticsearch waitress whitenoise
 
 WORKDIR /biostar-central
 

@@ -1,41 +1,15 @@
-# either set LOCATION_OF_BIOSTAR_CODE or check out code (or symlink to it) in ./biostar-central
-# hopefully symlinks will work
-# environment:
-#     LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
-#     POSTGRES_PASSWORD: mypostgrespassword
-#     POSTGRES_USER: postgres
-
 db:
-#    environment:
-##        LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
-        # POSTGRES_PASSWORD: mypostgrespassword
-        # POSTGRES_USER: postgres
-        # POSTGRESQL_HOST: db
-    image: training/postgres
-
-    ports:
-        - "5432:5432"
+    image: "training/postgres"
 web:
     environment:
-        # LOCATION_OF_BIOSTAR_CODE: # should be present in environment before running
-        POSTGRES_PASSWORD: mypostgrespassword
-        POSTGRES_USER: postgres
-        POSTGRESQL_HOST: db
-        POSTGRES_DATABASE_NAME: biostar
-    image: dtenenba/support.bioconductor.org
-    # build: .
+        POSTGRES_PASSWORD: "mypostgrespassword"
+        POSTGRESQL_HOST: "db"
+        POSTGRES_DATABASE_NAME: "biostar"
+    image: "dtenenba/support.bioconductor.org"
     volumes:
-        - biostar-central:/biostar-central
-#    command: "bash -c 'source /conf/default.env &&  && ./biostar.sh init import index run '"
-    command: bash -c "/conf/start.sh"
+     - "biostar-central:/biostar-central"
+    command: "/conf/start.sh"
     ports:
-        - 8080:8080
+     - "8080"
     links:
-        - db
-
-# the non-fig way:
-# this works:
-# in window 1:
-#  docker run --rm --name db training/postgres
-# in window 2:
-# docker run -ti --rm -e POSTGRES_PASSWORD=mypostgrespassword -e POSTGRES_USER=postgres -e POSTGRESQL_HOST=db -e POSTGRES_DATABASE_NAME=biostar --link db:db -v `pwd`/biostar-central:/biostar-central  -P dtenenba/support.bioconductor.org /conf/start.sh
+     - "db"
