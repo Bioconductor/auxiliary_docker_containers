@@ -39,23 +39,7 @@ Then the web app is running. You can connect to it as follows:
 * Open another terminal window.
 * If you are running boot2docker, run `boot2docker start` and
   set environment variables as suggested.
-* Run `docker ps -l` to see information about the web app container. You'll
-  see something like `0.0.0.0:49174->8080/tcp` under `PORTS`. 49174 
-  (the port you see will be different) is the port where the web app is
-  running. 
-* If you are running boot2docker, get the IP of your Docker host with 
-  `echo $DOCKER_HOST` or `boot2docker ip`. Just get the IP address part.
-* If you are not running boot2docker, the hostname will be
-  `localhost` or `127.0.0.1` 
-* Point your browser to `http://` plus the host, plus `:` plus the port. For 
-  example: `http://192.168.59.103:49174`, on boot2docker, or
-  `http://localhost:49174` if you are running on Linux.
-
-This is a pretty clunky way to get the URL. There are a couple ways it
-could be made easier. One is to change fig.yml to map to a non-random
-port on the host. But this is considered bad practice.
-A script could probably automate the process of getting the url.
-Expect that to be written soon.
+* Get the site's URL with `../get_url.sh`  
 
 # NOTES
 
@@ -66,7 +50,7 @@ Expect that to be written soon.
 * Search does not (yet) work. That's because the default 
   configuration uses elasticsearch and haystack which require
   a daemon running (in addition to the web app process) 
-  and this is a bit tricker to set up in Docker. It can be done,
+  and this is a bit trickier to set up in Docker. It can be done,
   or alternatively the development environment could
   use a different search back end which does not require
   a daemon process. Expect this to be fixed at some point.

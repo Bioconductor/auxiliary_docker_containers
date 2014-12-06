@@ -22,34 +22,15 @@ this file, go to
 
 By default (if you don't specify a command to run) the container will build the website.
 
-Then you can find out what port the website is running on with the command:
+Then you can determine the URL where the website is running with the 
+[get_url.sh](../get_url.sh) script. On a Mac you can pass a URL to `open` to open it with
+the default browser:
 
-    docker port website
+    open `../get_url.sh`
 
-This will show something like:
+On Linux you can open a specific browser on the command line with a URL, e.g.:
 
-    3000/tcp -> 0.0.0.0:49153
-
-The port number that's not 3000 (in this case 49153) will vary.
-
-
-Then to get the host, do this:
-
-    echo $DOCKER_HOST
-
-This will show something like:
-
-    tcp://192.168.59.103:2376
-
-
-If using docker directly (not via boot2docker) the IP address shown will be 127.0.0.1.
-
-
-So in this case you could browse to 
-
-    http://192.168.59.103:49153
-
-to see the compiled site.
+    firefox `../get_url.sh`
 
 
 If you want to build and view package landing pages, stop the container and restart it like this:

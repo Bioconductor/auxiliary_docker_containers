@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Run me with "."
+
+status=`boot2docker status`
+
+if [ "$status" = "running" ]; then
+    dummy="foo"
+else
+    boot2docker init 
+    boot2docker up
+fi
+
+oldprompt=$PS1
+__dkr="[dk]"
+PS1="$__dkr$PS1"
+$(boot2docker shellinit > /dev/null 2>&1) > /dev/null 2>&1
