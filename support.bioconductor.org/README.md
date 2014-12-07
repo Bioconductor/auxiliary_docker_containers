@@ -1,8 +1,14 @@
 # Linked Docker containers for developing the Bioconductor Support Site
 
-Consists of two containers, one for the database (just an off-the-shelf
-container from Docker Hub) and one for the web app. Fig handles the wiring 
-of the two containers together.
+Consists of four containers:
+
+* Web app - this is a customized container. The rest are off-the-shelf from
+ Docker Hub.
+* Postgres container
+* Elasticsearch container
+* RabbitMQ container
+
+[Fig](http://www.fig.sh/) is used to wire all these containers together.
 
 To use:
 
@@ -32,13 +38,13 @@ Then start the containers with:
 
 When you see the line 
 
-    web_1 | *** Run a waitress server with biostar.settings.base and DATABASE_NAME=biostar
+    web_1      | *** Run the development server with biostar.settings.base and DATABASE_NAME=biostar
 
 Then the web app is running. You can connect to it as follows:
 
 * Open another terminal window.
-* If you are running boot2docker, run `boot2docker start` and
-  set environment variables as suggested.
+* If you are running boot2docker, run `. ../b2on` (see top-level[README](../#utilities))
+  to set the appropriate environment variables and start boot2docker if necessary.
 * Get the site's URL with `../get_url.sh`  
 * You can log in with the email `0@foo.bar` and password `foobar`. This is an
   administrative user. You can also append `/admin` to the URL and log in
@@ -51,11 +57,4 @@ Then the web app is running. You can connect to it as follows:
   not be used for production. For one thing, the postgres
   container that is used is not very secure (although no 
   ports are open to it on the host).
-* Search does not (yet) work. That's because the default 
-  configuration uses elasticsearch and haystack which require
-  a daemon running (in addition to the web app process) 
-  and this is a bit trickier to set up in Docker. It can be done,
-  or alternatively the development environment could
-  use a different search back end which does not require
-  a daemon process. Expect this to be fixed at some point.
 

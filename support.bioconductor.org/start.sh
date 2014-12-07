@@ -9,7 +9,7 @@ echo "running ./biostar.sh"
 
 echo "create user biostar password '$POSTGRES_PASSWORD';create database biostar owner biostar;" | psql -U postgres -h db
 
-./biostar.sh init import
+./biostar.sh init import index
  python manage.py usermod -e 0@foo.bar -p foobar
  ./biostar.sh init run
 

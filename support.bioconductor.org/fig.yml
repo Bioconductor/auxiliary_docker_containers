@@ -1,5 +1,7 @@
 rabbitmq:
     image: "dockerfile/rabbitmq"
+elasticsearch:
+    image: "dockerfile/elasticsearch"
 db:
     image: "training/postgres"
 web:
@@ -8,6 +10,7 @@ web:
         POSTGRESQL_HOST: "db"
         POSTGRES_DATABASE_NAME: "biostar"
         BROKER_URL: "amqp://guest:guest@rabbitmq:5672//"
+        ELASTICSEARCH: "http://elasticsearch:9200/"
     image: "dtenenba/support.bioconductor.org"
     volumes:
      - "biostar-central:/biostar-central"
@@ -17,3 +20,4 @@ web:
     links:
      - "db"
      - "rabbitmq"
+     - "elasticsearch"
