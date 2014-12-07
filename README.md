@@ -5,6 +5,9 @@ might be supported in the future.
 
 See the README.md file in each directory for more detailed information.
 
+Several of these containers are hosted on Docker Hub (as automated builds)
+and can be downloaded with `docker pull`.
+
 ### devel_3.1
 
 A very basic container with R (devel AKA 3.2) and Bioconductor 3.1 (the "devel" version).
