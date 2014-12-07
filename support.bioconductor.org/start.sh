@@ -10,4 +10,4 @@ echo "running ./biostar.sh"
 
 echo "create user biostar password '$POSTGRES_PASSWORD';create database biostar owner biostar;" | psql -U postgres -h db
 
-./biostar.sh init import waitress
+./biostar.sh init import run
