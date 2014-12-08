@@ -1,0 +1,19 @@
+smtp:
+    image: "schickling/mailcatcher" # make sure web app is configured to use port 1025 for email
+db:
+    image: "mysql"
+    environment:
+        MYSQL_ROOT_PASSWORD: mysecretpassword
+web:
+    environment:
+        MYSQL_ROOT_PASSWORD: mysecretpassword
+    image: "dtenenba/tracker.bioconductor.org"
+    links:
+     - "db"
+     - "smtp"
+    ports:
+     - "8080"
+    volumes:
+     - "roundup:/roundup"
+     - "bioc_submit:/bioc_submit"
+    command: "/start/start.sh && sleep infinity"
