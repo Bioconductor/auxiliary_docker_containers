@@ -80,8 +80,9 @@ A development environment for the Bioconductor support site.
 
 A development environment for the Bioconductor website.
 
-## To be added?
+### tracker.bioconductor.org - 
 
-* tracker.bioconductor.org - a dev environment for the bioconductor issue tracker
-* ?
+A development environment for the bioconductor issue tracker. This is in its infancy
+and issues may arise.
+
 
