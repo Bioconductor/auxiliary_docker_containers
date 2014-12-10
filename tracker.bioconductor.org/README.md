@@ -31,9 +31,9 @@ values that conflict with the ones used in this dev environment.
 
 You probably won't need to change config.ini, so just make it a symlink:
 
-   cd bioc_submit
-   ln -s config.ini.example config.ini
-   cd ..
+    cd bioc_submit
+    ln -s config.ini.example config.ini
+    cd ..
 
 ## Using these containers
 
