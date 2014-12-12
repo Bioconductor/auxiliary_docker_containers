@@ -5,8 +5,8 @@ In order to run this, you need to check out the website code from SVN
 (https://github.com/Bioconductor/bioconductor.org.git). Assuming you 
 check it out into the current directory, this will put the code in 
 a directory called bioconductor.org. If you already have a working
-copy elsewhere on your disk, you can just create a symlink in the current
-directory (that is, the directory where this README is).
+copy elsewhere on your disk, you can just provide the full path
+to it on the command line(s) below.
 
 In order to run this container, do the following:
 
