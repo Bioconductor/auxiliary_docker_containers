@@ -27,4 +27,6 @@ COPY start.sh /start/start.sh
 COPY init_tracker /start/init_tracker
 RUN chmod a+r /start/init_tracker
 
+RUN rm -f /tmp/*.log
+
 CMD /start/start.sh
