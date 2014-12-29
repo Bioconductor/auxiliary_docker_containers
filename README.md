@@ -1,23 +1,16 @@
 # Exploratory Docker containers related to the Bioconductor project
 
-**NOTE:** These containers are not officially supported, but some version of them
-might be supported in the future.
+
+**NOTE**: Containers which will be officially suported can be found at
+[https://github.com/Bioconductor/bioc_docker](https://github.com/Bioconductor/bioc_docker
+); containers in this repository are not of general interest as they
+are for internal Bioconductor projects.
 
 See the README.md file in each directory for more detailed information.
 
 Several of these containers are hosted on Docker Hub (as automated builds)
 and can be downloaded with `docker pull`.
 
-### devel_3.1
-
-A very basic container with R (devel AKA 3.2) and Bioconductor 3.1 (the "devel" version).
-Includes some system dependencies for RCurl and XML.
-
-### release_3.0
-
-A very basic container with the latest R release version and Bioconductor release version.
-(as of 12/2014 these are R-3.1.2 and Bioconductor 3.0.)
-Includes some system dependencies for RCurl and XML.
 
 
 ### rserve_client_devel and rserve_server_devel
