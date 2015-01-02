@@ -14,9 +14,12 @@ RUN pip install python-dateutil
 
 # RUN pip install apiclient? # for dashboard stuff
 
-RUN     gem install --no-ri --no-rdoc nanoc nanoc3 pry rdiscount rack mime-types haml \
-      rack-cache httparty rake sass kramdown mechanize json nokogiri \
-      rgl sqlite3 adsf twitter aws-sdk hpricot uuid htmlentities redis
+RUN   cd /tmp && \
+    curl -O https://raw.githubusercontent.com/Bioconductor/bioconductor.org/master/Gemfile && \
+    curl -O https://raw.githubusercontent.com/Bioconductor/bioconductor.org/master/Gemfile.lock && \
+    echo "gem: --no-document" > /etc/gemrc && \
+    gem install bundler && \
+    bundle install
 
 VOLUME /bioconductor.org
 
