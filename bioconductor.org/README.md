@@ -44,4 +44,4 @@ If you want to build and view package landing pages, stop the container and rest
 
 # TODOS
 
-* enable dashboard to be built
+* enable (all of) dashboard to be built
