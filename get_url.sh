@@ -10,7 +10,7 @@ fi
 int=$(docker port $(docker ps -lq))
 
 if [ -z "$int" ]; then
-    echo "couldn't determine port; is a container running?"
+    >&2 echo "couldn't determine port; is a container running?"
     exit 1
 fi
 

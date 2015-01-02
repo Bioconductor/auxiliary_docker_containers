@@ -6,7 +6,10 @@ EXPOSE 3000
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update && apt-get dist-upgrade -y && apt-get install -y \
-    curl g++ libsqlite3-dev make patch python ruby ruby-dev  rsync
+    curl g++ libsqlite3-dev make patch python ruby2.0 ruby2.0-dev  rsync
+
+# make ruby 2.0 the default
+RUN for i in `ls /usr/bin/*2.0`; do  ln -sf $i `echo $i | tr -d 2.0`  ; done
 
 RUN curl https://bootstrap.pypa.io/get-pip.py | python && \
     pip install --upgrade google-api-python-client
