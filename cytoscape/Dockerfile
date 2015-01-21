@@ -20,6 +20,7 @@ RUN cd /tmp && \
 
 
 ADD CytoscapeRPC.jar /cytoscape-2.8.0/plugins/
+ADD CytoscapeRPC.conf /cytoscape-2.8.0/
 
 EXPOSE 9000
 
