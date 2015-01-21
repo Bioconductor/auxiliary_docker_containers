@@ -1,3 +1,4 @@
+# first set of machines
 zin2:
     image: "dtenenba/cytoscape"
     ports: "9028:9000"
@@ -13,6 +14,7 @@ moscato2_64:
 morelia:
     image: "dtenenba/cytoscape"
     ports: "5000:9000"
+# second set of machines
 moscato1:
     image: "dtenenba/cytoscape"
     ports: "3023:9000"
