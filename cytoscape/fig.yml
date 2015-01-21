@@ -1,0 +1,30 @@
+zin2:
+    image: "dtenenba/cytoscape"
+    ports: "9028:9000"
+petty:
+    image: "dtenenba/cytoscape"
+    ports: "7023:9000"
+moscato2:
+    image: "dtenenba/cytoscape"
+    ports: "4023:9000"
+moscato2_64:
+    image: "dtenenba/cytoscape"
+    ports: "3064:9000"
+morelia:
+    image: "dtenenba/cytoscape"
+    ports: "5000:9000"
+moscato1:
+    image: "dtenenba/cytoscape"
+    ports: "3023:9000"
+moscato1_64:
+    image: "dtenenba/cytoscape"
+    ports: "8064:9000"
+oaxaca:
+    image: "dtenenba/cytoscape"
+    ports: "9023:9000"
+perceval:
+    image: "dtenenba/cytoscape"
+    ports: "7088:9000"
+zin1:
+    image: "dtenenba/cytoscape"
+    ports: "8023:9000"
