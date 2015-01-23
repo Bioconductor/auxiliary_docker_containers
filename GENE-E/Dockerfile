@@ -24,7 +24,7 @@ EXPOSE 9998
 CMD cd /GENE-E && \
     /startx.sh && \
     export DISPLAY=:1.0 && \
-    java -Xmx1g \
+    java -Xmx30m \
     -Dgenee.license=1cb3ca61c418e809c2c6686ad027ad9f \
     -Dgenee.email=jgould@oadinstitute.org \
     -Dgenee.allowMultiple=true \
