@@ -8,7 +8,7 @@ pettycytoscape:
 moscato2cytoscape:
     image: "dtenenba/cytoscape"
     ports: "4023:9000"
-moscato2_64cytoscape:
+moscato264cytoscape:
     image: "dtenenba/cytoscape"
     ports: "3064:9000"
 moreliacytoscape:
@@ -18,7 +18,7 @@ moreliacytoscape:
 moscato1cytoscape:
     image: "dtenenba/cytoscape"
     ports: "3023:9000"
-moscato1_64cytoscape:
+moscato164cytoscape:
     image: "dtenenba/cytoscape"
     ports: "8064:9000"
 oaxacacytoscape:
