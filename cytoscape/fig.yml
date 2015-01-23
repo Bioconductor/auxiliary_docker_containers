@@ -1,32 +1,42 @@
 # first set of machines
 zin2cytoscape:
     image: "dtenenba/cytoscape"
-    ports: "9028:9000"
+    ports: 
+     - "9028:9000"
 pettycytoscape:
     image: "dtenenba/cytoscape"
-    ports: "7023:9000"
+    ports:
+     - "7023:9000"
 moscato2cytoscape:
     image: "dtenenba/cytoscape"
-    ports: "4023:9000"
+    ports: 
+     - "4023:9000"
 moscato264cytoscape:
     image: "dtenenba/cytoscape"
-    ports: "3064:9000"
+    ports:
+     - "3064:9000"
 moreliacytoscape:
     image: "dtenenba/cytoscape"
-    ports: "5000:9000"
+    ports:
+     - "5000:9000"
 # second set of machines
 moscato1cytoscape:
     image: "dtenenba/cytoscape"
-    ports: "3023:9000"
+    ports:
+     - "3023:9000"
 moscato164cytoscape:
     image: "dtenenba/cytoscape"
-    ports: "8064:9000"
+    ports:
+     - "8064:9000"
 oaxacacytoscape:
     image: "dtenenba/cytoscape"
-    ports: "9023:9000"
+    ports:
+     - "9023:9000"
 percevalcytoscape:
     image: "dtenenba/cytoscape"
-    ports: "7088:9000"
+    ports:
+     - "7088:9000"
 zin1cytoscape:
     image: "dtenenba/cytoscape"
-    ports: "8023:9000"
+    ports:
+     - "8023:9000"
