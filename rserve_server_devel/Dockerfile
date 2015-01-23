@@ -1,4 +1,4 @@
-FROM bioconductor/devel_small
+FROM bioconductor/devel_base
 
 MAINTAINER dtenenba@fredhutch.org
 
