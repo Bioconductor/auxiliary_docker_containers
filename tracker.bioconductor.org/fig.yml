@@ -1,5 +1,7 @@
 smtp:
     image: "schickling/mailcatcher" # make sure web app is configured to use port 1025 for email
+    ports:
+     - "1080:1080" # web app to read emails
 db:
     image: "mysql"
     environment:

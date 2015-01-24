@@ -52,9 +52,12 @@ by running the `tracker_url.sh` script in this directory:
 Open a browser window with the URL produced by that script. You can log in
 as the user `admin` with password `foo`.
 
-Note: This tracker sends email to a fake email server that does not actually
-send any email. So don't expect to receive emails from it. In future we might
-try and expose the emails that the system _would_ have sent.
+Note: This tracker sends email to a test email server that does not actually
+send any email. You will not receive any emails sent by the container directly
+into your inbox, however you can view them by pointing a web
+browser at port 1080 of your docker host
+(which is `localhost` on Linux, and can be determined with the
+`boot2docker ip` command on Mac and Windows.)
 
 ## Workflow
 
