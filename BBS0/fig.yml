@@ -1,0 +1,7 @@
+dockernode: 
+    image: dtenenba/bbs0
+    hostname: dockernode
+    volumes:
+     - "BBS:/home/biocbuild/BBS" # make a symlink...
+     - "OUTGOING:/home/biocbuild/public_html/BBS/3.1/bioc/OUTGOING" # make a symlink...
+    command: bash
