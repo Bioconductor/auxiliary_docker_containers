@@ -1,5 +1,9 @@
 #!/bin/bash
 
-docker run --name BBSdata -v /home/biocbuild/public_html/BBS/3.1/bioc \
-  -v $HOME/dev/github/BBS-gitsvn:/home/biocbuild/BBS -ti busybox \
-  chmod -R a+rw /home/biocbuild/public_html/BBS/3.1/bioc
+docker rm -f BBSdata ; \
+docker run -ti --name BBSdata -v /home/biocbuild/public_html/BBS/3.1/bioc \
+  -v $(pwd)/biocdir:/xfer \
+  -v $(pwd):/startup \
+  -v $HOME/dev/github/BBS-gitsvn:/home/biocbuild/BBS \
+  -v $HOME/dev/github/BBS-gitsvn/manage-BioC-repos:/home/biocadmin/manage-BioC-repos \
+ busybox  /startup/runOnDataVolume.sh
