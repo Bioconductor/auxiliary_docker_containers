@@ -1,0 +1,13 @@
+Path: /home/biocbuild/bbs-3.1-bioc/MEAT0/a4Reporting
+Working Copy Root Path: /home/biocbuild/bbs-3.1-bioc/MEAT0
+URL: https://hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/a4Reporting
+Relative URL: ^/trunk/madman/Rpacks/a4Reporting
+Repository Root: https://hedgehog.fhcrc.org/bioconductor
+Repository UUID: bc3139a8-67e5-0310-9ffc-ced21a209358
+Revision: 99834
+Node Kind: directory
+Schedule: normal
+Last Changed Author: d.tenenbaum
+Last Changed Rev: 95443
+Last Changed Date: 2014-10-13 14:47:41 -0700 (Mon, 13 Oct 2014)
+

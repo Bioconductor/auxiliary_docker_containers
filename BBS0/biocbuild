@@ -1,0 +1,9 @@
+#!/bin/bash
+
+/usr/sbin/sshd 
+cd /home/biocbuild/public_html
+python -m SimpleHTTPServer 80 > /dev/null 2>&1 &
+cd
+su - biocbuild
+bash
+

@@ -1,0 +1,167 @@
+* using log directory ‘/home/biocbuild/bbs-3.1-bioc/meat/a4Base.Rcheck’
+* using R Under development (unstable) (2015-02-23 r67879)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-vignettes’
+* checking for file ‘a4Base/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘a4Base’ version ‘1.15.0’
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package which this enhances but not available for checking: ‘JavaGD’
+
+Depends: includes the non-default packages:
+  ‘grid’ ‘Biobase’ ‘AnnotationDbi’ ‘annaffy’ ‘mpm’ ‘genefilter’ ‘limma’
+  ‘multtest’ ‘glmnet’ ‘a4Preproc’ ‘a4Core’ ‘gplots’
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘a4Base’ can be installed ... [11s/11s] OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... NOTE
+'library' or 'require' calls to packages already attached by Depends:
+  ‘Biobase’ ‘grid’
+  Please remove these calls from your code.
+'library' or 'require' calls in package code:
+  ‘Cairo’ ‘gridSVG’
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+Packages in Depends field not imported from:
+  ‘AnnotationDbi’ ‘a4Preproc’ ‘annaffy’ ‘genefilter’ ‘glmnet’ ‘gplots’
+  ‘grid’ ‘mpm’ ‘multtest’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+fTest: no visible global function definition for ‘rowFtests’
+fTest: no visible global function definition for ‘mt.rawp2adjp’
+filterVarInt: no visible global function definition for ‘pOverA’
+filterVarInt: no visible global function definition for ‘filterfun’
+filterVarInt: no visible global function definition for ‘genefilter’
+grid.imageGrob: no visible global function definition for ‘grid.draw’
+heatmap.expressionSet: no visible global function definition for ‘unit’
+heatmap.expressionSet: no visible global function definition for ‘gpar’
+heatmap.expressionSet : <anonymous>: no visible global function
+  definition for ‘colorpanel’
+heatmap.expressionSet: no visible global function definition for
+  ‘textGrob’
+heatmap.expressionSet: no visible global function definition for
+  ‘grid.layout’
+heatmap.expressionSet: no visible global function definition for
+  ‘grid.newpage’
+heatmap.expressionSet: no visible global function definition for
+  ‘convertUnit’
+heatmap.expressionSet: no visible global function definition for
+  ‘viewport’
+heatmap.expressionSet: no visible global function definition for
+  ‘pushViewport’
+heatmap.expressionSet: no visible global function definition for
+  ‘grid.text’
+heatmap.expressionSet: no visible global function definition for
+  ‘grid.rect’
+heatmap.expressionSet: no visible global function definition for
+  ‘popViewport’
+heatmap.expressionSet: no visible global function definition for
+  ‘unit.c’
+heatmap.expressionSet: no visible global function definition for
+  ‘grid.lines’
+heatmap.expressionSet: no visible global function definition for
+  ‘grid.xaxis’
+imageGrob: no visible global function definition for ‘gTree’
+imageGrob: no visible global function definition for ‘gList’
+lassoReg: no visible global function definition for ‘glmnet’
+makeImageRect: no visible global function definition for ‘rectGrob’
+makeImageRect: no visible global function definition for ‘gpar’
+plotLogRatio: no visible global function definition for ‘addGeneInfo’
+plotLogRatio: no visible global function definition for ‘JavaGD’
+plotLogRatio: no visible global function definition for ‘CairoPNG’
+plotLogRatio: no visible global function definition for ‘viewport’
+plotLogRatio: no visible global function definition for ‘grid.layout’
+plotLogRatio: no visible global function definition for ‘pushViewport’
+plotLogRatio: no visible global function definition for ‘grid.rect’
+plotLogRatio: no visible global function definition for ‘gpar’
+plotLogRatio: no visible global function definition for ‘grid.text’
+plotLogRatio: no visible global function definition for ‘grid.garnish’
+plotLogRatio: no visible global function definition for ‘popViewport’
+plotLogRatio: no visible global function definition for ‘grid.lines’
+plotLogRatio : <anonymous>: no visible global function definition for
+  ‘grid.lines’
+plotLogRatio : <anonymous>: no visible global function definition for
+  ‘gpar’
+plotLogRatio: no visible global function definition for ‘grid.segments’
+plotLogRatio: no visible global function definition for
+  ‘grid.hyperlink’
+plotLogRatio: no visible global function definition for ‘gPath’
+plotLogRatio: no visible global function definition for ‘grid.script’
+plotLogRatio: no visible global function definition for ‘gridToSVG’
+probe2gene: no visible global function definition for ‘aafSymbol’
+probe2gene: no visible global function definition for ‘getText’
+tTest: no visible global function definition for ‘rowttests’
+tTest: no visible global function definition for ‘mt.rawp2adjp’
+tTest2: no visible global function definition for ‘rowttests’
+tTest2: no visible global function definition for ‘mt.rawp2adjp’
+volcanoplotter: no visible global function definition for
+  ‘grid.newpage’
+volcanoplotter: no visible global function definition for
+  ‘plotViewport’
+volcanoplotter: no visible global function definition for
+  ‘pushViewport’
+volcanoplotter: no visible global function definition for ‘textGrob’
+volcanoplotter: no visible global function definition for ‘unit’
+volcanoplotter: no visible global function definition for ‘gpar’
+volcanoplotter: no visible global function definition for ‘grobWidth’
+volcanoplotter: no visible global function definition for
+  ‘convertHeight’
+volcanoplotter: no visible global function definition for
+  ‘dataViewport’
+volcanoplotter: no visible global function definition for ‘grid.pretty’
+volcanoplotter: no visible global function definition for
+  ‘current.viewport’
+volcanoplotter: no visible global function definition for ‘xaxisGrob’
+volcanoplotter: no visible global function definition for ‘grid.yaxis’
+volcanoplotter: no visible global function definition for ‘editGrob’
+volcanoplotter: no visible global function definition for ‘gEditList’
+volcanoplotter: no visible global function definition for ‘gEdit’
+volcanoplotter: no visible global function definition for ‘grid.draw’
+volcanoplotter: no visible global function definition for ‘grid.points’
+volcanoplotter: no visible global function definition for ‘grid.text’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... [66s/67s] OK
+Examples with CPU or elapsed time > 5s
+                  user system elapsed
+spectralMap     10.968  0.052  11.065
+computeLogRatio  7.432  0.040   7.620
+plotLogRatio     6.821  0.016   6.925
+* checking PDF version of manual ... OK
+* DONE
+Status: 4 NOTEs

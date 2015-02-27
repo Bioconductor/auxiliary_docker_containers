@@ -1,0 +1,14 @@
+Path: /home/biocbuild/bbs-3.1-bioc/MEAT0
+Working Copy Root Path: /home/biocbuild/bbs-3.1-bioc/MEAT0
+URL: https://hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks
+Relative URL: ^/trunk/madman/Rpacks
+Repository Root: https://hedgehog.fhcrc.org/bioconductor
+Repository UUID: bc3139a8-67e5-0310-9ffc-ced21a209358
+Revision: 99834
+Node Kind: directory
+Schedule: normal
+Last Changed Author: mtmorgan@fhcrc.org
+Last Changed Rev: 99834
+Last Changed Date: 2015-02-25 17:15:15 -0800 (Wed, 25 Feb 2015)
+
+Snapshot Date: 2015-02-25 17:20:29 -0800 (Wed, 25 Feb 2015)

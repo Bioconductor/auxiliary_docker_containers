@@ -1,0 +1,20 @@
+MAKE: make
+CC: gcc -std=gnu99
+CFLAGS: -g -O2 -Wall
+CPICFLAGS: -fpic
+CPP: gcc -std=gnu99 -E
+CXX: g++
+CXX1X: g++
+CXX1XFLAGS: -g -O2
+CXX1XPICFLAGS: -fpic
+CXX1XSTD: -std=c++11
+CXXFLAGS: -g -O2 -Wall
+CXXPICFLAGS: -fpic
+CXXCPP: g++ -E
+F77: gfortran
+FFLAGS: -g -O2 -Wall
+FLIBS: -lgfortran -lm -lquadmath
+FPICFLAGS: -fpic
+FC: gfortran
+FCFLAGS: -g -O2
+FCPICFLAGS: -fpic

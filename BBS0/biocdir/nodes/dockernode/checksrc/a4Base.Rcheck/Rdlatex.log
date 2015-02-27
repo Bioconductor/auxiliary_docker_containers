@@ -1,0 +1,1727 @@
+Hmm ... looks like a package
+
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ \write18 enabled.
+entering extended mode
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 26 languages loaded.
+(./Rd2.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
+(/home/biocbuild/bbs-3.1-bioc/R/share/texmf/tex/latex/Rd.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/etc/texmf/tex/latex/config/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+No file Rd2.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [1{/var/lib/texmf/fonts
+/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (38.51953pt too wide) in paragraph at lines 58--63
+[]\T1/ptm/m/n/10 For n = 1, \T1/zi4/m/n/10 "blue" \T1/ptm/m/n/10 is re-turned; 
+for n = 2 \T1/zi4/m/n/10 c("red", "blue") \T1/ptm/m/n/10 is re-turned; for n = 
+3 \T1/zi4/m/n/10 c("red", "green", "blue"
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (438.78088pt too wide) in paragraph at lines 142--142
+ []\T1/zi4/m/n/10 boxPlot(probesetId = NULL, geneSymbol = NULL, object, groups,
+ main = NULL, colvec = NULL, colgroups = NULL, probe2gene = TRUE, addLegend = T
+RUE, legendPos = "topleft", ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 148--150
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [3]
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 163--165
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [4]
+Overfull \hbox (72.78094pt too wide) in paragraph at lines 240--240
+ []\T1/zi4/m/n/9 eH2009 <- prepareExpressionSet(exprs = data.H2009, phenoData =
+ phenoData.H2009, changeColumnsNames = TRUE)[] 
+
+Overfull \hbox (76.38095pt too wide) in paragraph at lines 241--241
+ []\T1/zi4/m/n/9 eSKOV3  <- prepareExpressionSet(exprs = data.SKOV3, phenoData 
+= phenoData.SKOV3, changeColumnsNames = TRUE)[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (13.78088pt too wide) in paragraph at lines 260--260
+ []\T1/zi4/m/n/10 computeLogRatio(e, reference, within = NULL, across = NULL, n
+ReplicatesVar = 3, ...)[] 
+[5] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (117.35983pt too wide) in paragraph at lines 290--293
+\T1/ptm/m/n/10 the across ar-gu-ments. E.g.: \T1/zi4/m/n/10 reference=list(var 
+= \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 boolean\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 , leve
+l = 1),       across = c(\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/1
+0 '\T1/zi4/m/n/10 ,\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4
+/m/n/10 ) 
+
+Overfull \hbox (146.26978pt too wide) in paragraph at lines 293--297
+\T1/ptm/m/n/10 for the ref-er-ence group: for ex-am-ple, \T1/zi4/m/n/10 pData(e
+)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 refvar\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 ] <- pa
+ste(pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/10 '\T1/zi4/m
+/n/10 ], pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4/
+m/n/10 ],sep=\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 .\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 )
+
+[6]
+Overfull \hbox (19.68091pt too wide) in paragraph at lines 336--336
+ []\T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, too
+ltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1/z
+i4/m/n/9 ,[] 
+
+Overfull \hbox (17.88095pt too wide) in paragraph at lines 337--337
+ []\T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\TS1/zi4
+/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 genes most
+ differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (829.78088pt too wide) in paragraph at lines 354--354
+ []\T1/zi4/m/n/10 createExpressionSet(exprs = new("matrix"), phenoData = new("A
+nnotatedDataFrame"), varMetadata = NULL, dimLabels = c("rowNames", "colNames"),
+ featureData = NULL, experimentData = new("MIAME"), annotation = character(0), 
+changeColumnsNames = TRUE, ...)[] 
+[7] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (318.43922pt too wide) in paragraph at lines 414--415
+[]\T1/ptm/m/n/10 Objects can be cre-ated by calls of the form \T1/zi4/m/n/10 ne
+w("ExpressionSetWithComputation", assayData, phenoData, featureData, experiment
+Data, annotation, exprs, ...)\T1/ptm/m/n/10 . 
+[8]
+Overfull \hbox (35.53761pt too wide) in paragraph at lines 432--436
+[]\T1/ptm/m/n/10 Class [][]\T1/zi4/m/n/10 ExpressionSet[][][]\T1/ptm/m/n/10 , d
+i-rectly. Class [][]\T1/zi4/m/n/10 eSet[][][]\T1/ptm/m/n/10 , by class "Ex-pres
+-sion-Set", dis-tance 2. Class [][]\T1/zi4/m/n/10 VersionedBiobase[][][]\T1/ptm
+/m/n/10 ,
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (10.78088pt too wide) in paragraph at lines 460--460
+ []\T1/zi4/m/n/10 filterVarInt(object, IntCutOff = log2(100), IntPropSamples = 
+0.25, VarCutOff = 0.5)[] 
+[9] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4646.78088pt too wide) in paragraph at lines 529--529
+ []\T1/zi4/m/n/10 heatmap.expressionSet(eset, col.groups = pData(phenoData(eset
+))[, "subGroup"], col.orderBy = order(pData(phenoData(eset))[, "subGroup"]), co
+l.groups.sep.width = unit(8, "points"), col.labels = sampleNames(eset), col.lab
+els.sep.width = unit(10, "points"), col.labels.gpar = gpar(cex = 1), col.labels
+.max.nchar = 20, colors.pergroup = FALSE, colors.groups = NULL, colors.groups.m
+in = rgb(1, 1, 1), colors.max = rgb(1, 0, 0), colors.min = rgb(1, 1, 1), colors
+.nbreaks = 128, colors.palette = NULL, cell.gpar = gpar(lty = 0), row.groups.se
+p.height = unit(15, "points"), row.labels.sep.height = unit(10, "points"), row.
+col.groups.display = ifelse(length(unique(col.groups)) > 1, TRUE, FALSE), row.c
+ol.groups.display.height = unit(6, "points"), row.labels.gpar = gpar(cex = 1, c
+ol = "black"), row.labels.max.nchar = 45, row.labels = list("SYMBOL", "GENENAME
+"), row.labels.sep = " - ", row.groups = rep(1, nrow(exprs(eset))), row.order =
+ "none", row.groups.hclust = FALSE, row.groups.hclust.n = 4, distfun = dist, hc
+lustfun = function(d) {[] 
+
+Overfull \hbox (3507.78088pt too wide) in paragraph at lines 531--531
+ []\T1/zi4/m/n/10 }, values.min = 0, values.max = 16, title.gpar = gpar(cex = 1
+.4), title.main = "This is the title  possibly being very long - it will be spl
+ited on several lines or even displayed with dots at the end -- see there (does
+ it work? addendum)", title.just = c("right", "top"), title.maxlines = 4, title
+.cutpoint = 40, subtitle.gpar = gpar(cex = 1), subtitle.main = "This is subtitl
+e", subtitle.maxlines = 4, subtitle.just = title.just, subtitle.cutpoint = 40, 
+margin.top = unit(2, "lines"), margin.left = unit(2, "lines"), margin.right = u
+nit(2, "lines"), margin.bottom = unit(2, "lines"), legend.display = TRUE, legen
+d.range = "full", legend.data.display = ifelse(legend.range == "full", TRUE, FA
+LSE), legend.gpar = gpar(cex = 1), legend.width = unit(250, "points"), legend.h
+eight = unit(40, "points"), ...)[] 
+[10] [11] [12] [13]
+Underfull \vbox (badness 3803) has occurred while \output is active [14]
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 803--803
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 824--824
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [15]
+Underfull \vbox (badness 10000) has occurred while \output is active [16]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [17]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.78088pt too wide) in paragraph at lines 964--964
+ []\T1/zi4/m/n/10 histpvalueplotter(pValue, addLegend = FALSE, xlab = NULL, yla
+b = NULL, main = NULL, ...)[] 
+[18] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [19]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.85832pt too wide) in paragraph at lines 1086--1090
+[]\T1/ptm/m/n/10 character vec-tor of gene sym-bols; this slot is only pop-u-la
+ted if \T1/zi4/m/n/10 probe2gene=TRUE
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [20]
+Overfull \hbox (75.78088pt too wide) in paragraph at lines 1110--1110
+ []\T1/zi4/m/n/10 logReg(object, groups, probesetId = NULL, geneSymbol = NULL, 
+main = NULL, probe2gene = TRUE, ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1119--1121
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+[21] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (322.69986pt too wide) in paragraph at lines 1200--1202
+[]\T1/ptm/m/n/10 data sim-u-lated us-ing \T1/zi4/m/n/10 nlcvTT <- nlcv(selBcrAb
+lOrNeg, classVar = \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 mol.biol\TS1/zi4/m/n/10 '\T1
+/zi4/m/n/10 ,    classdist = "unbalanced", nRuns = 10, fsMethod = "t.test", ver
+bose = TRUE) 
+[22] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 1230--1230
+ []\T1/zi4/m/n/10 plot1gene(probesetId = NULL, geneSymbol = NULL, object, group
+s, main = NULL, colvec = NULL,[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1238--1240
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1257--1259
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[23] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (32.78088pt too wide) in paragraph at lines 1316--1316
+ []\T1/zi4/m/n/10 plotComb2Samples(object, x, y, trsholdX = NULL, trsholdY = NU
+LL, probe2gene = TRUE, ...)[] 
+[24] [25] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.78088pt too wide) in paragraph at lines 1370--1370
+ []\T1/zi4/m/n/10 plotCombination2genes(probesetId1 = NULL, probesetId2 = NULL,
+ geneSymbol1 = NULL,[] 
+
+Overfull \hbox (166.78088pt too wide) in paragraph at lines 1371--1371
+ [] \T1/zi4/m/n/10 geneSymbol2 = NULL, object, groups, addLegend = TRUE, legend
+Pos = "topleft", probe2gene = TRUE, colvec = NULL, ...)[] 
+[26] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.78088pt too wide) in paragraph at lines 1481--1481
+ [] \T1/zi4/m/n/10 filename = "Rplots", device = "svg", orderBy = list(rows = "
+hclust", cols = NULL),[] 
+
+Overfull \hbox (73.78088pt too wide) in paragraph at lines 1482--1482
+ []  \T1/zi4/m/n/10 colorsColumns = NULL, colorsColumnsBy = NULL, colorsColumns
+ByPalette = c("#1B9E77", "#D95F02",[] 
+
+Overfull \hbox (98.78088pt too wide) in paragraph at lines 1483--1483
+ []   \T1/zi4/m/n/10 "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "#6
+66666"), colorsUseMeanQuantiles = FALSE,[] 
+
+Overfull \hbox (33.78088pt too wide) in paragraph at lines 1484--1484
+ []    \T1/zi4/m/n/10 colorsMeanQuantilesPalette = c("orange", "red", "darkred"
+), colorsBarsMatrix = NULL,[] 
+
+Overfull \hbox (25.78088pt too wide) in paragraph at lines 1485--1485
+ []     \T1/zi4/m/n/10 colorsGenesNames = c("black"), main = paste("log2 ratio\
+TS1/zi4/m/n/10 '\T1/zi4/m/n/10 s"), shortvarnames = NULL,[] 
+
+Overfull \hbox (103.78088pt too wide) in paragraph at lines 1488--1488
+ []       \T1/zi4/m/n/10 exp.width = 1.8, exp.height = 0.2, log2l.show = TRUE, 
+log4l.show = FALSE, quantiles.show = FALSE,[] 
+
+Overfull \hbox (42.78088pt too wide) in paragraph at lines 1491--1491
+ []          \T1/zi4/m/n/10 closeX11 = FALSE, openFile = FALSE, tooltipvalues =
+ FALSE, probe2gene = TRUE, ...)[] 
+[28] [29]
+Overfull \hbox (25.55887pt too wide) in paragraph at lines 1589--1595
+\T1/ptm/m/n/10 for each group of columns. The vec-tor that is pro-vided with th
+e ar-gu-ment \T1/zi4/m/n/10 colorsColumnsByPalette
+[30]
+Overfull \hbox (26.88092pt too wide) in paragraph at lines 1636--1636
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, t
+ooltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1
+/zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1637--1637
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+[31]
+Overfull \hbox (22.38092pt too wide) in paragraph at lines 1641--1641
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=TRUE, to
+oltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 pdf\TS1/zi4/m/n/9 '\T1/
+zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1642--1642
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (226.78088pt too wide) in paragraph at lines 1660--1660
+ []\T1/zi4/m/n/10 probabilitiesPlot(proportions, classVar, sampleNames, plot = 
+TRUE, barPlot = FALSE, layout = TRUE, main = NULL, sub = NULL, ...)[] 
+[32] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [33]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (247.78088pt too wide) in paragraph at lines 1768--1768
+ []\T1/zi4/m/n/10 profilesPlot(object, probesetIds, sampleIDs = TRUE, addLegend
+ = TRUE, legendPos = "topleft", colvec = NULL, orderGroups = NULL, ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1775--1777
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1784--1786
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[34] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [35]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [36]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [37]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [38]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 2078--2080
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (106.27818pt too wide) in paragraph at lines 2097--2097
+ [] 
+[39]
+Overfull \hbox (29.44704pt too wide) in paragraph at lines 2132--2133
+[]\T1/ptm/m/n/10 limma ob-jects are pro-duced by \T1/zi4/m/n/10 limma2Groups 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [40]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [41] [42]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [43]
+Overfull \hbox (43.97568pt too wide) in paragraph at lines 2344--2346
+[]
+
+Overfull \hbox (9.0369pt too wide) in paragraph at lines 2349--2352
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+
+Overfull \hbox (0.17676pt too wide) in paragraph at lines 2355--2358
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (339.78088pt too wide) in paragraph at lines 2390--2390
+ []\T1/zi4/m/n/10 volcanoplotter(logRatio, pValue, pointLabels, topPValues = 10
+, topLogRatios = 10, logTransformP = TRUE, smoothScatter = TRUE, xlab = NULL, y
+lab = NULL,[] 
+
+Overfull \hbox (108.78088pt too wide) in paragraph at lines 2391--2391
+ []  \T1/zi4/m/n/10 main = NULL, sub = NULL, newpage = TRUE, additionalPointsTo
+Label = NULL, additionalLabelColor = "red")[] 
+[44]
+No file Rd2.ind.
+[45] (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.rowttests} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Rfn.plot.mpm} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rle} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlcv} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ROCcurve} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lassoClass} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.filterfun} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pOverA} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Versioned} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.VersionedBiobase} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eSet} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ExpressionSet} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rainbow} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (45 pages, 229014 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (129 entries accepted, 4 rejected).
+Sorting entries....done (995 comparisons).
+Generating output file Rd2.ind....done (197 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ \write18 enabled.
+entering extended mode
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 26 languages loaded.
+(./Rd2.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
+(/home/biocbuild/bbs-3.1-bioc/R/share/texmf/tex/latex/Rd.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/etc/texmf/tex/latex/config/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc [1{/var/li
+b/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (38.51953pt too wide) in paragraph at lines 58--63
+[]\T1/ptm/m/n/10 For n = 1, \T1/zi4/m/n/10 "blue" \T1/ptm/m/n/10 is re-turned; 
+for n = 2 \T1/zi4/m/n/10 c("red", "blue") \T1/ptm/m/n/10 is re-turned; for n = 
+3 \T1/zi4/m/n/10 c("red", "green", "blue"
+[2] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [3]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (438.78088pt too wide) in paragraph at lines 142--142
+ []\T1/zi4/m/n/10 boxPlot(probesetId = NULL, geneSymbol = NULL, object, groups,
+ main = NULL, colvec = NULL, colgroups = NULL, probe2gene = TRUE, addLegend = T
+RUE, legendPos = "topleft", ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 148--150
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 163--165
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[4] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [5]
+Overfull \hbox (72.78094pt too wide) in paragraph at lines 240--240
+ []\T1/zi4/m/n/9 eH2009 <- prepareExpressionSet(exprs = data.H2009, phenoData =
+ phenoData.H2009, changeColumnsNames = TRUE)[] 
+
+Overfull \hbox (76.38095pt too wide) in paragraph at lines 241--241
+ []\T1/zi4/m/n/9 eSKOV3  <- prepareExpressionSet(exprs = data.SKOV3, phenoData 
+= phenoData.SKOV3, changeColumnsNames = TRUE)[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (13.78088pt too wide) in paragraph at lines 260--260
+ []\T1/zi4/m/n/10 computeLogRatio(e, reference, within = NULL, across = NULL, n
+ReplicatesVar = 3, ...)[] 
+[6] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (117.35983pt too wide) in paragraph at lines 290--293
+\T1/ptm/m/n/10 the across ar-gu-ments. E.g.: \T1/zi4/m/n/10 reference=list(var 
+= \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 boolean\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 , leve
+l = 1),       across = c(\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/1
+0 '\T1/zi4/m/n/10 ,\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4
+/m/n/10 ) 
+
+Overfull \hbox (146.26978pt too wide) in paragraph at lines 293--297
+\T1/ptm/m/n/10 for the ref-er-ence group: for ex-am-ple, \T1/zi4/m/n/10 pData(e
+)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 refvar\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 ] <- pa
+ste(pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/10 '\T1/zi4/m
+/n/10 ], pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4/
+m/n/10 ],sep=\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 .\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 )
+
+[7]
+Overfull \hbox (19.68091pt too wide) in paragraph at lines 336--336
+ []\T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, too
+ltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1/z
+i4/m/n/9 ,[] 
+
+Overfull \hbox (17.88095pt too wide) in paragraph at lines 337--337
+ []\T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\TS1/zi4
+/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 genes most
+ differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (829.78088pt too wide) in paragraph at lines 354--354
+ []\T1/zi4/m/n/10 createExpressionSet(exprs = new("matrix"), phenoData = new("A
+nnotatedDataFrame"), varMetadata = NULL, dimLabels = c("rowNames", "colNames"),
+ featureData = NULL, experimentData = new("MIAME"), annotation = character(0), 
+changeColumnsNames = TRUE, ...)[] 
+[8] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (318.43922pt too wide) in paragraph at lines 414--415
+[]\T1/ptm/m/n/10 Objects can be cre-ated by calls of the form \T1/zi4/m/n/10 ne
+w("ExpressionSetWithComputation", assayData, phenoData, featureData, experiment
+Data, annotation, exprs, ...)\T1/ptm/m/n/10 . 
+
+Overfull \hbox (35.53761pt too wide) in paragraph at lines 432--436
+[]\T1/ptm/m/n/10 Class [][]\T1/zi4/m/n/10 ExpressionSet[][][]\T1/ptm/m/n/10 , d
+i-rectly. Class [][]\T1/zi4/m/n/10 eSet[][][]\T1/ptm/m/n/10 , by class "Ex-pres
+-sion-Set", dis-tance 2. Class [][]\T1/zi4/m/n/10 VersionedBiobase[][][]\T1/ptm
+/m/n/10 ,
+[9] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (10.78088pt too wide) in paragraph at lines 460--460
+ []\T1/zi4/m/n/10 filterVarInt(object, IntCutOff = log2(100), IntPropSamples = 
+0.25, VarCutOff = 0.5)[] 
+[10] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4646.78088pt too wide) in paragraph at lines 529--529
+ []\T1/zi4/m/n/10 heatmap.expressionSet(eset, col.groups = pData(phenoData(eset
+))[, "subGroup"], col.orderBy = order(pData(phenoData(eset))[, "subGroup"]), co
+l.groups.sep.width = unit(8, "points"), col.labels = sampleNames(eset), col.lab
+els.sep.width = unit(10, "points"), col.labels.gpar = gpar(cex = 1), col.labels
+.max.nchar = 20, colors.pergroup = FALSE, colors.groups = NULL, colors.groups.m
+in = rgb(1, 1, 1), colors.max = rgb(1, 0, 0), colors.min = rgb(1, 1, 1), colors
+.nbreaks = 128, colors.palette = NULL, cell.gpar = gpar(lty = 0), row.groups.se
+p.height = unit(15, "points"), row.labels.sep.height = unit(10, "points"), row.
+col.groups.display = ifelse(length(unique(col.groups)) > 1, TRUE, FALSE), row.c
+ol.groups.display.height = unit(6, "points"), row.labels.gpar = gpar(cex = 1, c
+ol = "black"), row.labels.max.nchar = 45, row.labels = list("SYMBOL", "GENENAME
+"), row.labels.sep = " - ", row.groups = rep(1, nrow(exprs(eset))), row.order =
+ "none", row.groups.hclust = FALSE, row.groups.hclust.n = 4, distfun = dist, hc
+lustfun = function(d) {[] 
+
+Overfull \hbox (3507.78088pt too wide) in paragraph at lines 531--531
+ []\T1/zi4/m/n/10 }, values.min = 0, values.max = 16, title.gpar = gpar(cex = 1
+.4), title.main = "This is the title  possibly being very long - it will be spl
+ited on several lines or even displayed with dots at the end -- see there (does
+ it work? addendum)", title.just = c("right", "top"), title.maxlines = 4, title
+.cutpoint = 40, subtitle.gpar = gpar(cex = 1), subtitle.main = "This is subtitl
+e", subtitle.maxlines = 4, subtitle.just = title.just, subtitle.cutpoint = 40, 
+margin.top = unit(2, "lines"), margin.left = unit(2, "lines"), margin.right = u
+nit(2, "lines"), margin.bottom = unit(2, "lines"), legend.display = TRUE, legen
+d.range = "full", legend.data.display = ifelse(legend.range == "full", TRUE, FA
+LSE), legend.gpar = gpar(cex = 1), legend.width = unit(250, "points"), legend.h
+eight = unit(40, "points"), ...)[] 
+[11] [12] [13] [14]
+Underfull \vbox (badness 10000) has occurred while \output is active [15]
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 803--803
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 824--824
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [16]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [17]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.78088pt too wide) in paragraph at lines 964--964
+ []\T1/zi4/m/n/10 histpvalueplotter(pValue, addLegend = FALSE, xlab = NULL, yla
+b = NULL, main = NULL, ...)[] 
+[18] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [19]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [20]
+Overfull \hbox (1.85832pt too wide) in paragraph at lines 1086--1090
+[]\T1/ptm/m/n/10 character vec-tor of gene sym-bols; this slot is only pop-u-la
+ted if \T1/zi4/m/n/10 probe2gene=TRUE
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (75.78088pt too wide) in paragraph at lines 1110--1110
+ []\T1/zi4/m/n/10 logReg(object, groups, probesetId = NULL, geneSymbol = NULL, 
+main = NULL, probe2gene = TRUE, ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1119--1121
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+[21] [22] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (322.69986pt too wide) in paragraph at lines 1200--1202
+[]\T1/ptm/m/n/10 data sim-u-lated us-ing \T1/zi4/m/n/10 nlcvTT <- nlcv(selBcrAb
+lOrNeg, classVar = \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 mol.biol\TS1/zi4/m/n/10 '\T1
+/zi4/m/n/10 ,    classdist = "unbalanced", nRuns = 10, fsMethod = "t.test", ver
+bose = TRUE) 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 1230--1230
+ []\T1/zi4/m/n/10 plot1gene(probesetId = NULL, geneSymbol = NULL, object, group
+s, main = NULL, colvec = NULL,[] 
+[23]
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1238--1240
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1257--1259
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[24] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (32.78088pt too wide) in paragraph at lines 1316--1316
+ []\T1/zi4/m/n/10 plotComb2Samples(object, x, y, trsholdX = NULL, trsholdY = NU
+LL, probe2gene = TRUE, ...)[] 
+[25] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.78088pt too wide) in paragraph at lines 1370--1370
+ []\T1/zi4/m/n/10 plotCombination2genes(probesetId1 = NULL, probesetId2 = NULL,
+ geneSymbol1 = NULL,[] 
+
+Overfull \hbox (166.78088pt too wide) in paragraph at lines 1371--1371
+ [] \T1/zi4/m/n/10 geneSymbol2 = NULL, object, groups, addLegend = TRUE, legend
+Pos = "topleft", probe2gene = TRUE, colvec = NULL, ...)[] 
+[26] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.78088pt too wide) in paragraph at lines 1481--1481
+ [] \T1/zi4/m/n/10 filename = "Rplots", device = "svg", orderBy = list(rows = "
+hclust", cols = NULL),[] 
+
+Overfull \hbox (73.78088pt too wide) in paragraph at lines 1482--1482
+ []  \T1/zi4/m/n/10 colorsColumns = NULL, colorsColumnsBy = NULL, colorsColumns
+ByPalette = c("#1B9E77", "#D95F02",[] 
+
+Overfull \hbox (98.78088pt too wide) in paragraph at lines 1483--1483
+ []   \T1/zi4/m/n/10 "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "#6
+66666"), colorsUseMeanQuantiles = FALSE,[] 
+
+Overfull \hbox (33.78088pt too wide) in paragraph at lines 1484--1484
+ []    \T1/zi4/m/n/10 colorsMeanQuantilesPalette = c("orange", "red", "darkred"
+), colorsBarsMatrix = NULL,[] 
+[28]
+Overfull \hbox (25.78088pt too wide) in paragraph at lines 1485--1485
+ []     \T1/zi4/m/n/10 colorsGenesNames = c("black"), main = paste("log2 ratio\
+TS1/zi4/m/n/10 '\T1/zi4/m/n/10 s"), shortvarnames = NULL,[] 
+
+Overfull \hbox (103.78088pt too wide) in paragraph at lines 1488--1488
+ []       \T1/zi4/m/n/10 exp.width = 1.8, exp.height = 0.2, log2l.show = TRUE, 
+log4l.show = FALSE, quantiles.show = FALSE,[] 
+
+Overfull \hbox (42.78088pt too wide) in paragraph at lines 1491--1491
+ []          \T1/zi4/m/n/10 closeX11 = FALSE, openFile = FALSE, tooltipvalues =
+ FALSE, probe2gene = TRUE, ...)[] 
+[29] [30]
+Overfull \hbox (25.55887pt too wide) in paragraph at lines 1589--1595
+\T1/ptm/m/n/10 for each group of columns. The vec-tor that is pro-vided with th
+e ar-gu-ment \T1/zi4/m/n/10 colorsColumnsByPalette
+[31]
+Overfull \hbox (26.88092pt too wide) in paragraph at lines 1636--1636
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, t
+ooltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1
+/zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1637--1637
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+
+Overfull \hbox (22.38092pt too wide) in paragraph at lines 1641--1641
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=TRUE, to
+oltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 pdf\TS1/zi4/m/n/9 '\T1/
+zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1642--1642
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (226.78088pt too wide) in paragraph at lines 1660--1660
+ []\T1/zi4/m/n/10 probabilitiesPlot(proportions, classVar, sampleNames, plot = 
+TRUE, barPlot = FALSE, layout = TRUE, main = NULL, sub = NULL, ...)[] 
+[32] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [33]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (247.78088pt too wide) in paragraph at lines 1768--1768
+ []\T1/zi4/m/n/10 profilesPlot(object, probesetIds, sampleIDs = TRUE, addLegend
+ = TRUE, legendPos = "topleft", colvec = NULL, orderGroups = NULL, ...)[] 
+[34]
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1775--1777
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1784--1786
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[35] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [36]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [37]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [38]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [39]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 2078--2080
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (106.27818pt too wide) in paragraph at lines 2097--2097
+ [] 
+[40]
+Overfull \hbox (29.44704pt too wide) in paragraph at lines 2132--2133
+[]\T1/ptm/m/n/10 limma ob-jects are pro-duced by \T1/zi4/m/n/10 limma2Groups 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [41]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [42] [43]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [44]
+Overfull \hbox (43.97568pt too wide) in paragraph at lines 2344--2346
+[]
+
+Overfull \hbox (9.0369pt too wide) in paragraph at lines 2349--2352
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+
+Overfull \hbox (0.17676pt too wide) in paragraph at lines 2355--2358
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (339.78088pt too wide) in paragraph at lines 2390--2390
+ []\T1/zi4/m/n/10 volcanoplotter(logRatio, pValue, pointLabels, topPValues = 10
+, topLogRatios = 10, logTransformP = TRUE, smoothScatter = TRUE, xlab = NULL, y
+lab = NULL,[] 
+
+Overfull \hbox (108.78088pt too wide) in paragraph at lines 2391--2391
+ []  \T1/zi4/m/n/10 main = NULL, sub = NULL, newpage = TRUE, additionalPointsTo
+Label = NULL, additionalLabelColor = "red")[] 
+[45] (./Rd2.ind [46]
+Overfull \hbox (3.3567pt too wide) in paragraph at lines 4--6
+[]| \T1/zi4/m/n/10 ExpressionSetWithComputation-class\T1/ptm/m/n/10 , 
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 83.
+
+[47]
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 153--155
+[]\T1/zi4/m/it/10 spectralMap,ExpressionSet,character-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 181--183
+[]\T1/zi4/m/it/10 volcanoPlot,limma,missing,character-method 
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 183--185
+[]\T1/zi4/m/it/10 volcanoPlot,limma,missing,missing-method 
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 185--187
+[]\T1/zi4/m/it/10 volcanoPlot,numeric,numeric,character-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 187--189
+[]\T1/zi4/m/it/10 volcanoPlot,numeric,numeric,missing-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 189--191
+[]\T1/zi4/m/it/10 volcanoPlot,tTest,missing,character-method 
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 191--193
+[]\T1/zi4/m/it/10 volcanoPlot,tTest,missing,missing-method 
+[48]) (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.rowttests} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Rfn.plot.mpm} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rle} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlcv} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ROCcurve} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lassoClass} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.filterfun} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pOverA} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Versioned} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.VersionedBiobase} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eSet} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ExpressionSet} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rainbow} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (48 pages, 280887 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (129 entries accepted, 4 rejected).
+Sorting entries....done (995 comparisons).
+Generating output file Rd2.ind....done (198 lines written, 1 warning).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ \write18 enabled.
+entering extended mode
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 26 languages loaded.
+(./Rd2.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
+(/home/biocbuild/bbs-3.1-bioc/R/share/texmf/tex/latex/Rd.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/etc/texmf/tex/latex/config/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc [1{/var/li
+b/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (38.51953pt too wide) in paragraph at lines 58--63
+[]\T1/ptm/m/n/10 For n = 1, \T1/zi4/m/n/10 "blue" \T1/ptm/m/n/10 is re-turned; 
+for n = 2 \T1/zi4/m/n/10 c("red", "blue") \T1/ptm/m/n/10 is re-turned; for n = 
+3 \T1/zi4/m/n/10 c("red", "green", "blue"
+[2] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [3]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (438.78088pt too wide) in paragraph at lines 142--142
+ []\T1/zi4/m/n/10 boxPlot(probesetId = NULL, geneSymbol = NULL, object, groups,
+ main = NULL, colvec = NULL, colgroups = NULL, probe2gene = TRUE, addLegend = T
+RUE, legendPos = "topleft", ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 148--150
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 163--165
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[4] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [5]
+Overfull \hbox (72.78094pt too wide) in paragraph at lines 240--240
+ []\T1/zi4/m/n/9 eH2009 <- prepareExpressionSet(exprs = data.H2009, phenoData =
+ phenoData.H2009, changeColumnsNames = TRUE)[] 
+
+Overfull \hbox (76.38095pt too wide) in paragraph at lines 241--241
+ []\T1/zi4/m/n/9 eSKOV3  <- prepareExpressionSet(exprs = data.SKOV3, phenoData 
+= phenoData.SKOV3, changeColumnsNames = TRUE)[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (13.78088pt too wide) in paragraph at lines 260--260
+ []\T1/zi4/m/n/10 computeLogRatio(e, reference, within = NULL, across = NULL, n
+ReplicatesVar = 3, ...)[] 
+[6] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (117.35983pt too wide) in paragraph at lines 290--293
+\T1/ptm/m/n/10 the across ar-gu-ments. E.g.: \T1/zi4/m/n/10 reference=list(var 
+= \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 boolean\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 , leve
+l = 1),       across = c(\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/1
+0 '\T1/zi4/m/n/10 ,\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4
+/m/n/10 ) 
+
+Overfull \hbox (146.26978pt too wide) in paragraph at lines 293--297
+\T1/ptm/m/n/10 for the ref-er-ence group: for ex-am-ple, \T1/zi4/m/n/10 pData(e
+)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 refvar\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 ] <- pa
+ste(pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/10 '\T1/zi4/m
+/n/10 ], pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4/
+m/n/10 ],sep=\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 .\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 )
+
+[7]
+Overfull \hbox (19.68091pt too wide) in paragraph at lines 336--336
+ []\T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, too
+ltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1/z
+i4/m/n/9 ,[] 
+
+Overfull \hbox (17.88095pt too wide) in paragraph at lines 337--337
+ []\T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\TS1/zi4
+/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 genes most
+ differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (829.78088pt too wide) in paragraph at lines 354--354
+ []\T1/zi4/m/n/10 createExpressionSet(exprs = new("matrix"), phenoData = new("A
+nnotatedDataFrame"), varMetadata = NULL, dimLabels = c("rowNames", "colNames"),
+ featureData = NULL, experimentData = new("MIAME"), annotation = character(0), 
+changeColumnsNames = TRUE, ...)[] 
+[8] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (318.43922pt too wide) in paragraph at lines 414--415
+[]\T1/ptm/m/n/10 Objects can be cre-ated by calls of the form \T1/zi4/m/n/10 ne
+w("ExpressionSetWithComputation", assayData, phenoData, featureData, experiment
+Data, annotation, exprs, ...)\T1/ptm/m/n/10 . 
+
+Overfull \hbox (35.53761pt too wide) in paragraph at lines 432--436
+[]\T1/ptm/m/n/10 Class [][]\T1/zi4/m/n/10 ExpressionSet[][][]\T1/ptm/m/n/10 , d
+i-rectly. Class [][]\T1/zi4/m/n/10 eSet[][][]\T1/ptm/m/n/10 , by class "Ex-pres
+-sion-Set", dis-tance 2. Class [][]\T1/zi4/m/n/10 VersionedBiobase[][][]\T1/ptm
+/m/n/10 ,
+[9] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (10.78088pt too wide) in paragraph at lines 460--460
+ []\T1/zi4/m/n/10 filterVarInt(object, IntCutOff = log2(100), IntPropSamples = 
+0.25, VarCutOff = 0.5)[] 
+[10] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4646.78088pt too wide) in paragraph at lines 529--529
+ []\T1/zi4/m/n/10 heatmap.expressionSet(eset, col.groups = pData(phenoData(eset
+))[, "subGroup"], col.orderBy = order(pData(phenoData(eset))[, "subGroup"]), co
+l.groups.sep.width = unit(8, "points"), col.labels = sampleNames(eset), col.lab
+els.sep.width = unit(10, "points"), col.labels.gpar = gpar(cex = 1), col.labels
+.max.nchar = 20, colors.pergroup = FALSE, colors.groups = NULL, colors.groups.m
+in = rgb(1, 1, 1), colors.max = rgb(1, 0, 0), colors.min = rgb(1, 1, 1), colors
+.nbreaks = 128, colors.palette = NULL, cell.gpar = gpar(lty = 0), row.groups.se
+p.height = unit(15, "points"), row.labels.sep.height = unit(10, "points"), row.
+col.groups.display = ifelse(length(unique(col.groups)) > 1, TRUE, FALSE), row.c
+ol.groups.display.height = unit(6, "points"), row.labels.gpar = gpar(cex = 1, c
+ol = "black"), row.labels.max.nchar = 45, row.labels = list("SYMBOL", "GENENAME
+"), row.labels.sep = " - ", row.groups = rep(1, nrow(exprs(eset))), row.order =
+ "none", row.groups.hclust = FALSE, row.groups.hclust.n = 4, distfun = dist, hc
+lustfun = function(d) {[] 
+
+Overfull \hbox (3507.78088pt too wide) in paragraph at lines 531--531
+ []\T1/zi4/m/n/10 }, values.min = 0, values.max = 16, title.gpar = gpar(cex = 1
+.4), title.main = "This is the title  possibly being very long - it will be spl
+ited on several lines or even displayed with dots at the end -- see there (does
+ it work? addendum)", title.just = c("right", "top"), title.maxlines = 4, title
+.cutpoint = 40, subtitle.gpar = gpar(cex = 1), subtitle.main = "This is subtitl
+e", subtitle.maxlines = 4, subtitle.just = title.just, subtitle.cutpoint = 40, 
+margin.top = unit(2, "lines"), margin.left = unit(2, "lines"), margin.right = u
+nit(2, "lines"), margin.bottom = unit(2, "lines"), legend.display = TRUE, legen
+d.range = "full", legend.data.display = ifelse(legend.range == "full", TRUE, FA
+LSE), legend.gpar = gpar(cex = 1), legend.width = unit(250, "points"), legend.h
+eight = unit(40, "points"), ...)[] 
+[11] [12] [13] [14]
+Underfull \vbox (badness 10000) has occurred while \output is active [15]
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 803--803
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 824--824
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [16]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [17]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.78088pt too wide) in paragraph at lines 964--964
+ []\T1/zi4/m/n/10 histpvalueplotter(pValue, addLegend = FALSE, xlab = NULL, yla
+b = NULL, main = NULL, ...)[] 
+[18] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [19]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [20]
+Overfull \hbox (1.85832pt too wide) in paragraph at lines 1086--1090
+[]\T1/ptm/m/n/10 character vec-tor of gene sym-bols; this slot is only pop-u-la
+ted if \T1/zi4/m/n/10 probe2gene=TRUE
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (75.78088pt too wide) in paragraph at lines 1110--1110
+ []\T1/zi4/m/n/10 logReg(object, groups, probesetId = NULL, geneSymbol = NULL, 
+main = NULL, probe2gene = TRUE, ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1119--1121
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+[21] [22] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (322.69986pt too wide) in paragraph at lines 1200--1202
+[]\T1/ptm/m/n/10 data sim-u-lated us-ing \T1/zi4/m/n/10 nlcvTT <- nlcv(selBcrAb
+lOrNeg, classVar = \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 mol.biol\TS1/zi4/m/n/10 '\T1
+/zi4/m/n/10 ,    classdist = "unbalanced", nRuns = 10, fsMethod = "t.test", ver
+bose = TRUE) 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 1230--1230
+ []\T1/zi4/m/n/10 plot1gene(probesetId = NULL, geneSymbol = NULL, object, group
+s, main = NULL, colvec = NULL,[] 
+[23]
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1238--1240
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1257--1259
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[24] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (32.78088pt too wide) in paragraph at lines 1316--1316
+ []\T1/zi4/m/n/10 plotComb2Samples(object, x, y, trsholdX = NULL, trsholdY = NU
+LL, probe2gene = TRUE, ...)[] 
+[25] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.78088pt too wide) in paragraph at lines 1370--1370
+ []\T1/zi4/m/n/10 plotCombination2genes(probesetId1 = NULL, probesetId2 = NULL,
+ geneSymbol1 = NULL,[] 
+
+Overfull \hbox (166.78088pt too wide) in paragraph at lines 1371--1371
+ [] \T1/zi4/m/n/10 geneSymbol2 = NULL, object, groups, addLegend = TRUE, legend
+Pos = "topleft", probe2gene = TRUE, colvec = NULL, ...)[] 
+[26] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.78088pt too wide) in paragraph at lines 1481--1481
+ [] \T1/zi4/m/n/10 filename = "Rplots", device = "svg", orderBy = list(rows = "
+hclust", cols = NULL),[] 
+
+Overfull \hbox (73.78088pt too wide) in paragraph at lines 1482--1482
+ []  \T1/zi4/m/n/10 colorsColumns = NULL, colorsColumnsBy = NULL, colorsColumns
+ByPalette = c("#1B9E77", "#D95F02",[] 
+
+Overfull \hbox (98.78088pt too wide) in paragraph at lines 1483--1483
+ []   \T1/zi4/m/n/10 "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "#6
+66666"), colorsUseMeanQuantiles = FALSE,[] 
+
+Overfull \hbox (33.78088pt too wide) in paragraph at lines 1484--1484
+ []    \T1/zi4/m/n/10 colorsMeanQuantilesPalette = c("orange", "red", "darkred"
+), colorsBarsMatrix = NULL,[] 
+[28]
+Overfull \hbox (25.78088pt too wide) in paragraph at lines 1485--1485
+ []     \T1/zi4/m/n/10 colorsGenesNames = c("black"), main = paste("log2 ratio\
+TS1/zi4/m/n/10 '\T1/zi4/m/n/10 s"), shortvarnames = NULL,[] 
+
+Overfull \hbox (103.78088pt too wide) in paragraph at lines 1488--1488
+ []       \T1/zi4/m/n/10 exp.width = 1.8, exp.height = 0.2, log2l.show = TRUE, 
+log4l.show = FALSE, quantiles.show = FALSE,[] 
+
+Overfull \hbox (42.78088pt too wide) in paragraph at lines 1491--1491
+ []          \T1/zi4/m/n/10 closeX11 = FALSE, openFile = FALSE, tooltipvalues =
+ FALSE, probe2gene = TRUE, ...)[] 
+[29] [30]
+Overfull \hbox (25.55887pt too wide) in paragraph at lines 1589--1595
+\T1/ptm/m/n/10 for each group of columns. The vec-tor that is pro-vided with th
+e ar-gu-ment \T1/zi4/m/n/10 colorsColumnsByPalette
+[31]
+Overfull \hbox (26.88092pt too wide) in paragraph at lines 1636--1636
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, t
+ooltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1
+/zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1637--1637
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+
+Overfull \hbox (22.38092pt too wide) in paragraph at lines 1641--1641
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=TRUE, to
+oltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 pdf\TS1/zi4/m/n/9 '\T1/
+zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1642--1642
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (226.78088pt too wide) in paragraph at lines 1660--1660
+ []\T1/zi4/m/n/10 probabilitiesPlot(proportions, classVar, sampleNames, plot = 
+TRUE, barPlot = FALSE, layout = TRUE, main = NULL, sub = NULL, ...)[] 
+[32] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [33]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (247.78088pt too wide) in paragraph at lines 1768--1768
+ []\T1/zi4/m/n/10 profilesPlot(object, probesetIds, sampleIDs = TRUE, addLegend
+ = TRUE, legendPos = "topleft", colvec = NULL, orderGroups = NULL, ...)[] 
+[34]
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1775--1777
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1784--1786
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[35] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [36]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [37]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [38]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [39]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 2078--2080
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (106.27818pt too wide) in paragraph at lines 2097--2097
+ [] 
+[40]
+Overfull \hbox (29.44704pt too wide) in paragraph at lines 2132--2133
+[]\T1/ptm/m/n/10 limma ob-jects are pro-duced by \T1/zi4/m/n/10 limma2Groups 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [41]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [42] [43]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [44]
+Overfull \hbox (43.97568pt too wide) in paragraph at lines 2344--2346
+[]
+
+Overfull \hbox (9.0369pt too wide) in paragraph at lines 2349--2352
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+
+Overfull \hbox (0.17676pt too wide) in paragraph at lines 2355--2358
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (339.78088pt too wide) in paragraph at lines 2390--2390
+ []\T1/zi4/m/n/10 volcanoplotter(logRatio, pValue, pointLabels, topPValues = 10
+, topLogRatios = 10, logTransformP = TRUE, smoothScatter = TRUE, xlab = NULL, y
+lab = NULL,[] 
+
+Overfull \hbox (108.78088pt too wide) in paragraph at lines 2391--2391
+ []  \T1/zi4/m/n/10 main = NULL, sub = NULL, newpage = TRUE, additionalPointsTo
+Label = NULL, additionalLabelColor = "red")[] 
+[45] (./Rd2.ind [46]
+Overfull \hbox (3.3567pt too wide) in paragraph at lines 4--6
+[]| \T1/zi4/m/n/10 ExpressionSetWithComputation-class\T1/ptm/m/n/10 , 
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 83.
+
+[47]
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 154--156
+[]\T1/zi4/m/it/10 spectralMap,ExpressionSet,character-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 182--184
+[]\T1/zi4/m/it/10 volcanoPlot,limma,missing,character-method 
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 184--186
+[]\T1/zi4/m/it/10 volcanoPlot,limma,missing,missing-method 
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 186--188
+[]\T1/zi4/m/it/10 volcanoPlot,numeric,numeric,character-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 188--190
+[]\T1/zi4/m/it/10 volcanoPlot,numeric,numeric,missing-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 190--192
+[]\T1/zi4/m/it/10 volcanoPlot,tTest,missing,character-method 
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 192--194
+[]\T1/zi4/m/it/10 volcanoPlot,tTest,missing,missing-method 
+[48]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.rowttests} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Rfn.plot.mpm} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rle} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlcv} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ROCcurve} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lassoClass} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.filterfun} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pOverA} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Versioned} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.VersionedBiobase} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eSet} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ExpressionSet} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rainbow} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (48 pages, 281726 bytes).
+Transcript written on Rd2.log.
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 26 languages loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
+(/home/biocbuild/bbs-3.1-bioc/R/share/texmf/tex/latex/Rd.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/etc/texmf/tex/latex/config/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc [1{/var/li
+b/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (38.51953pt too wide) in paragraph at lines 58--63
+[]\T1/ptm/m/n/10 For n = 1, \T1/zi4/m/n/10 "blue" \T1/ptm/m/n/10 is re-turned; 
+for n = 2 \T1/zi4/m/n/10 c("red", "blue") \T1/ptm/m/n/10 is re-turned; for n = 
+3 \T1/zi4/m/n/10 c("red", "green", "blue"
+[2] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [3]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (438.78088pt too wide) in paragraph at lines 142--142
+ []\T1/zi4/m/n/10 boxPlot(probesetId = NULL, geneSymbol = NULL, object, groups,
+ main = NULL, colvec = NULL, colgroups = NULL, probe2gene = TRUE, addLegend = T
+RUE, legendPos = "topleft", ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 148--150
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 163--165
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[4] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [5]
+Overfull \hbox (72.78094pt too wide) in paragraph at lines 240--240
+ []\T1/zi4/m/n/9 eH2009 <- prepareExpressionSet(exprs = data.H2009, phenoData =
+ phenoData.H2009, changeColumnsNames = TRUE)[] 
+
+Overfull \hbox (76.38095pt too wide) in paragraph at lines 241--241
+ []\T1/zi4/m/n/9 eSKOV3  <- prepareExpressionSet(exprs = data.SKOV3, phenoData 
+= phenoData.SKOV3, changeColumnsNames = TRUE)[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (13.78088pt too wide) in paragraph at lines 260--260
+ []\T1/zi4/m/n/10 computeLogRatio(e, reference, within = NULL, across = NULL, n
+ReplicatesVar = 3, ...)[] 
+[6] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (117.35983pt too wide) in paragraph at lines 290--293
+\T1/ptm/m/n/10 the across ar-gu-ments. E.g.: \T1/zi4/m/n/10 reference=list(var 
+= \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 boolean\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 , leve
+l = 1),       across = c(\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/1
+0 '\T1/zi4/m/n/10 ,\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4
+/m/n/10 ) 
+
+Overfull \hbox (146.26978pt too wide) in paragraph at lines 293--297
+\T1/ptm/m/n/10 for the ref-er-ence group: for ex-am-ple, \T1/zi4/m/n/10 pData(e
+)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 refvar\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 ] <- pa
+ste(pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 compound\TS1/zi4/m/n/10 '\T1/zi4/m
+/n/10 ], pData(e)[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 dose\TS1/zi4/m/n/10 '\T1/zi4/
+m/n/10 ],sep=\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 .\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 )
+
+[7]
+Overfull \hbox (19.68091pt too wide) in paragraph at lines 336--336
+ []\T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, too
+ltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1/z
+i4/m/n/9 ,[] 
+
+Overfull \hbox (17.88095pt too wide) in paragraph at lines 337--337
+ []\T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\TS1/zi4
+/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 genes most
+ differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (829.78088pt too wide) in paragraph at lines 354--354
+ []\T1/zi4/m/n/10 createExpressionSet(exprs = new("matrix"), phenoData = new("A
+nnotatedDataFrame"), varMetadata = NULL, dimLabels = c("rowNames", "colNames"),
+ featureData = NULL, experimentData = new("MIAME"), annotation = character(0), 
+changeColumnsNames = TRUE, ...)[] 
+[8] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (318.43922pt too wide) in paragraph at lines 414--415
+[]\T1/ptm/m/n/10 Objects can be cre-ated by calls of the form \T1/zi4/m/n/10 ne
+w("ExpressionSetWithComputation", assayData, phenoData, featureData, experiment
+Data, annotation, exprs, ...)\T1/ptm/m/n/10 . 
+
+Overfull \hbox (35.53761pt too wide) in paragraph at lines 432--436
+[]\T1/ptm/m/n/10 Class [][]\T1/zi4/m/n/10 ExpressionSet[][][]\T1/ptm/m/n/10 , d
+i-rectly. Class [][]\T1/zi4/m/n/10 eSet[][][]\T1/ptm/m/n/10 , by class "Ex-pres
+-sion-Set", dis-tance 2. Class [][]\T1/zi4/m/n/10 VersionedBiobase[][][]\T1/ptm
+/m/n/10 ,
+[9] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (10.78088pt too wide) in paragraph at lines 460--460
+ []\T1/zi4/m/n/10 filterVarInt(object, IntCutOff = log2(100), IntPropSamples = 
+0.25, VarCutOff = 0.5)[] 
+[10] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4646.78088pt too wide) in paragraph at lines 529--529
+ []\T1/zi4/m/n/10 heatmap.expressionSet(eset, col.groups = pData(phenoData(eset
+))[, "subGroup"], col.orderBy = order(pData(phenoData(eset))[, "subGroup"]), co
+l.groups.sep.width = unit(8, "points"), col.labels = sampleNames(eset), col.lab
+els.sep.width = unit(10, "points"), col.labels.gpar = gpar(cex = 1), col.labels
+.max.nchar = 20, colors.pergroup = FALSE, colors.groups = NULL, colors.groups.m
+in = rgb(1, 1, 1), colors.max = rgb(1, 0, 0), colors.min = rgb(1, 1, 1), colors
+.nbreaks = 128, colors.palette = NULL, cell.gpar = gpar(lty = 0), row.groups.se
+p.height = unit(15, "points"), row.labels.sep.height = unit(10, "points"), row.
+col.groups.display = ifelse(length(unique(col.groups)) > 1, TRUE, FALSE), row.c
+ol.groups.display.height = unit(6, "points"), row.labels.gpar = gpar(cex = 1, c
+ol = "black"), row.labels.max.nchar = 45, row.labels = list("SYMBOL", "GENENAME
+"), row.labels.sep = " - ", row.groups = rep(1, nrow(exprs(eset))), row.order =
+ "none", row.groups.hclust = FALSE, row.groups.hclust.n = 4, distfun = dist, hc
+lustfun = function(d) {[] 
+
+Overfull \hbox (3507.78088pt too wide) in paragraph at lines 531--531
+ []\T1/zi4/m/n/10 }, values.min = 0, values.max = 16, title.gpar = gpar(cex = 1
+.4), title.main = "This is the title  possibly being very long - it will be spl
+ited on several lines or even displayed with dots at the end -- see there (does
+ it work? addendum)", title.just = c("right", "top"), title.maxlines = 4, title
+.cutpoint = 40, subtitle.gpar = gpar(cex = 1), subtitle.main = "This is subtitl
+e", subtitle.maxlines = 4, subtitle.just = title.just, subtitle.cutpoint = 40, 
+margin.top = unit(2, "lines"), margin.left = unit(2, "lines"), margin.right = u
+nit(2, "lines"), margin.bottom = unit(2, "lines"), legend.display = TRUE, legen
+d.range = "full", legend.data.display = ifelse(legend.range == "full", TRUE, FA
+LSE), legend.gpar = gpar(cex = 1), legend.width = unit(250, "points"), legend.h
+eight = unit(40, "points"), ...)[] 
+[11] [12] [13] [14]
+Underfull \vbox (badness 10000) has occurred while \output is active [15]
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 803--803
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Overfull \hbox (133.98096pt too wide) in paragraph at lines 824--824
+ []\T1/zi4/m/n/9 row.labels.gpar=gpar(cex=0.4,col=c(rep("red",2),rep("black",49
+)) ), # col will correctly be a vector only if no group...[] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [16]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [17]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.78088pt too wide) in paragraph at lines 964--964
+ []\T1/zi4/m/n/10 histpvalueplotter(pValue, addLegend = FALSE, xlab = NULL, yla
+b = NULL, main = NULL, ...)[] 
+[18] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [19]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [20]
+Overfull \hbox (1.85832pt too wide) in paragraph at lines 1086--1090
+[]\T1/ptm/m/n/10 character vec-tor of gene sym-bols; this slot is only pop-u-la
+ted if \T1/zi4/m/n/10 probe2gene=TRUE
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (75.78088pt too wide) in paragraph at lines 1110--1110
+ []\T1/zi4/m/n/10 logReg(object, groups, probesetId = NULL, geneSymbol = NULL, 
+main = NULL, probe2gene = TRUE, ...)[] 
+
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1119--1121
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+[21] [22] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (322.69986pt too wide) in paragraph at lines 1200--1202
+[]\T1/ptm/m/n/10 data sim-u-lated us-ing \T1/zi4/m/n/10 nlcvTT <- nlcv(selBcrAb
+lOrNeg, classVar = \TS1/zi4/m/n/10 '\T1/zi4/m/n/10 mol.biol\TS1/zi4/m/n/10 '\T1
+/zi4/m/n/10 ,    classdist = "unbalanced", nRuns = 10, fsMethod = "t.test", ver
+bose = TRUE) 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 1230--1230
+ []\T1/zi4/m/n/10 plot1gene(probesetId = NULL, geneSymbol = NULL, object, group
+s, main = NULL, colvec = NULL,[] 
+[23]
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1238--1240
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1257--1259
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[24] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (32.78088pt too wide) in paragraph at lines 1316--1316
+ []\T1/zi4/m/n/10 plotComb2Samples(object, x, y, trsholdX = NULL, trsholdY = NU
+LL, probe2gene = TRUE, ...)[] 
+[25] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.78088pt too wide) in paragraph at lines 1370--1370
+ []\T1/zi4/m/n/10 plotCombination2genes(probesetId1 = NULL, probesetId2 = NULL,
+ geneSymbol1 = NULL,[] 
+
+Overfull \hbox (166.78088pt too wide) in paragraph at lines 1371--1371
+ [] \T1/zi4/m/n/10 geneSymbol2 = NULL, object, groups, addLegend = TRUE, legend
+Pos = "topleft", probe2gene = TRUE, colvec = NULL, ...)[] 
+[26] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.78088pt too wide) in paragraph at lines 1481--1481
+ [] \T1/zi4/m/n/10 filename = "Rplots", device = "svg", orderBy = list(rows = "
+hclust", cols = NULL),[] 
+
+Overfull \hbox (73.78088pt too wide) in paragraph at lines 1482--1482
+ []  \T1/zi4/m/n/10 colorsColumns = NULL, colorsColumnsBy = NULL, colorsColumns
+ByPalette = c("#1B9E77", "#D95F02",[] 
+
+Overfull \hbox (98.78088pt too wide) in paragraph at lines 1483--1483
+ []   \T1/zi4/m/n/10 "#7570B3", "#E7298A", "#66A61E", "#E6AB02", "#A6761D", "#6
+66666"), colorsUseMeanQuantiles = FALSE,[] 
+
+Overfull \hbox (33.78088pt too wide) in paragraph at lines 1484--1484
+ []    \T1/zi4/m/n/10 colorsMeanQuantilesPalette = c("orange", "red", "darkred"
+), colorsBarsMatrix = NULL,[] 
+[28]
+Overfull \hbox (25.78088pt too wide) in paragraph at lines 1485--1485
+ []     \T1/zi4/m/n/10 colorsGenesNames = c("black"), main = paste("log2 ratio\
+TS1/zi4/m/n/10 '\T1/zi4/m/n/10 s"), shortvarnames = NULL,[] 
+
+Overfull \hbox (103.78088pt too wide) in paragraph at lines 1488--1488
+ []       \T1/zi4/m/n/10 exp.width = 1.8, exp.height = 0.2, log2l.show = TRUE, 
+log4l.show = FALSE, quantiles.show = FALSE,[] 
+
+Overfull \hbox (42.78088pt too wide) in paragraph at lines 1491--1491
+ []          \T1/zi4/m/n/10 closeX11 = FALSE, openFile = FALSE, tooltipvalues =
+ FALSE, probe2gene = TRUE, ...)[] 
+[29] [30]
+Overfull \hbox (25.55887pt too wide) in paragraph at lines 1589--1595
+\T1/ptm/m/n/10 for each group of columns. The vec-tor that is pro-vided with th
+e ar-gu-ment \T1/zi4/m/n/10 colorsColumnsByPalette
+[31]
+Overfull \hbox (26.88092pt too wide) in paragraph at lines 1636--1636
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=FALSE, t
+ooltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 X11\TS1/zi4/m/n/9 '\T1
+/zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1637--1637
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+
+Overfull \hbox (22.38092pt too wide) in paragraph at lines 1641--1641
+ []  \T1/zi4/m/n/9 a <- plotLogRatio(e=LogRatioALL[topGenes,],openFile=TRUE, to
+oltipvalues=FALSE, device=\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 pdf\TS1/zi4/m/n/9 '\T1/
+zi4/m/n/9 ,[] 
+
+Overfull \hbox (39.48099pt too wide) in paragraph at lines 1642--1642
+ []      \T1/zi4/m/n/9 colorsColumnsBy=c(\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 BTtype\T
+S1/zi4/m/n/9 '\T1/zi4/m/n/9 ), main = \TS1/zi4/m/n/9 '\T1/zi4/m/n/9 Top 20 gene
+s most differentially between T- and B-cells\TS1/zi4/m/n/9 '\T1/zi4/m/n/9 ,[] 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (226.78088pt too wide) in paragraph at lines 1660--1660
+ []\T1/zi4/m/n/10 probabilitiesPlot(proportions, classVar, sampleNames, plot = 
+TRUE, barPlot = FALSE, layout = TRUE, main = NULL, sub = NULL, ...)[] 
+[32] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [33]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (247.78088pt too wide) in paragraph at lines 1768--1768
+ []\T1/zi4/m/n/10 profilesPlot(object, probesetIds, sampleIDs = TRUE, addLegend
+ = TRUE, legendPos = "topleft", colvec = NULL, orderGroups = NULL, ...)[] 
+[34]
+Overfull \hbox (17.30933pt too wide) in paragraph at lines 1775--1777
+[]\T1/ptm/m/n/10 The probe-set ID. These should be stored in the \T1/zi4/m/n/10
+ featureNames \T1/ptm/m/n/10 of the \T1/zi4/m/n/10 expressionSet
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 1784--1786
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+[35] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [36]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [37]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [38]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [39]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 2078--2080
+[]\T1/ptm/m/n/10 Specify where the leg-end should be placed. Typ-i-cally ei-the
+r \T1/zi4/m/n/10 topright\T1/ptm/m/n/10 , \T1/zi4/m/n/10 bottomright\T1/ptm/m/n
+/10 ,
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (106.27818pt too wide) in paragraph at lines 2097--2097
+ [] 
+[40]
+Overfull \hbox (29.44704pt too wide) in paragraph at lines 2132--2133
+[]\T1/ptm/m/n/10 limma ob-jects are pro-duced by \T1/zi4/m/n/10 limma2Groups 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [41]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [42] [43]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [44]
+Overfull \hbox (43.97568pt too wide) in paragraph at lines 2344--2346
+[]
+
+Overfull \hbox (9.0369pt too wide) in paragraph at lines 2349--2352
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+
+Overfull \hbox (0.17676pt too wide) in paragraph at lines 2355--2358
+[]\T1/ptm/m/n/10 volcanoPlot for ar-bi-trary nu-meric vec-
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (339.78088pt too wide) in paragraph at lines 2390--2390
+ []\T1/zi4/m/n/10 volcanoplotter(logRatio, pValue, pointLabels, topPValues = 10
+, topLogRatios = 10, logTransformP = TRUE, smoothScatter = TRUE, xlab = NULL, y
+lab = NULL,[] 
+
+Overfull \hbox (108.78088pt too wide) in paragraph at lines 2391--2391
+ []  \T1/zi4/m/n/10 main = NULL, sub = NULL, newpage = TRUE, additionalPointsTo
+Label = NULL, additionalLabelColor = "red")[] 
+[45] (./Rd2.ind [46]
+Overfull \hbox (3.3567pt too wide) in paragraph at lines 4--6
+[]| \T1/zi4/m/n/10 ExpressionSetWithComputation-class\T1/ptm/m/n/10 , 
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 83.
+
+[47]
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 154--156
+[]\T1/zi4/m/it/10 spectralMap,ExpressionSet,character-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 182--184
+[]\T1/zi4/m/it/10 volcanoPlot,limma,missing,character-method 
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 184--186
+[]\T1/zi4/m/it/10 volcanoPlot,limma,missing,missing-method 
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 186--188
+[]\T1/zi4/m/it/10 volcanoPlot,numeric,numeric,character-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 188--190
+[]\T1/zi4/m/it/10 volcanoPlot,numeric,numeric,missing-method 
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 190--192
+[]\T1/zi4/m/it/10 volcanoPlot,tTest,missing,character-method 
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 192--194
+[]\T1/zi4/m/it/10 volcanoPlot,tTest,missing,missing-method 
+[48]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.rowttests} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Rfn.plot.mpm} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rle} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlcv} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ROCcurve} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lassoClass} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.filterfun} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pOverA} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Versioned} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.VersionedBiobase} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eSet} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ExpressionSet} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rainbow} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (48 pages, 281726 bytes).
+Transcript written on Rd2.log.
+Saving output to 'a4Base-manual.pdf' ...
+Done
+You may want to clean up by 'rm -rf /tmp/Rtmp4674M9/Rd2pdf613e397127c0'

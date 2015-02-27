@@ -1,0 +1,65 @@
+Package: a4Base
+Version: 1.15.0
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
+        Ligtenberg
+MaintainerEmail: willem.ligtenberg@openanalytics.eu
+UnsupportedPlatforms: None
+NoExamplesOnPlatforms: None
+Alert: None
+AlertOn: None
+AlertTo: None
+
+Package: a4Preproc
+Version: 1.15.0
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
+        Ligtenberg
+MaintainerEmail: willem.ligtenberg@openanalytics.eu
+UnsupportedPlatforms: None
+NoExamplesOnPlatforms: None
+Alert: None
+AlertOn: None
+AlertTo: None
+
+Package: a4Classif
+Version: 1.15.0
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
+        Ligtenberg
+MaintainerEmail: willem.ligtenberg@openanalytics.eu
+UnsupportedPlatforms: None
+NoExamplesOnPlatforms: None
+Alert: None
+AlertOn: None
+AlertTo: None
+
+Package: a4Core
+Version: 1.15.0
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
+        Ligtenberg
+MaintainerEmail: willem.ligtenberg@openanalytics.eu
+UnsupportedPlatforms: None
+NoExamplesOnPlatforms: None
+Alert: None
+AlertOn: None
+AlertTo: None
+
+Package: a4Reporting
+Version: 1.15.0
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
+        Ligtenberg
+MaintainerEmail: willem.ligtenberg@openanalytics.eu
+UnsupportedPlatforms: None
+NoExamplesOnPlatforms: None
+Alert: None
+AlertOn: None
+AlertTo: None
+
+Package: a4
+Version: 1.15.0
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
+        Ligtenberg
+MaintainerEmail: willem.ligtenberg@openanalytics.eu
+UnsupportedPlatforms: None
+NoExamplesOnPlatforms: None
+Alert: None
+AlertOn: None
+AlertTo: None

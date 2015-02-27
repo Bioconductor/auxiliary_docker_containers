@@ -1,0 +1,10 @@
+Package: a4Preproc
+Version: 1.15.0
+Command: /home/biocbuild/bbs-3.1-bioc/R/bin/R CMD check --no-vignettes --timings a4Preproc_1.15.0.tar.gz
+StartedAt: 2015-02-25 22:13:01 -0800 (Wed, 25 Feb 2015)
+EndedAt: 2015-02-25 22:13:59 -0800 (Wed, 25 Feb 2015)
+EllapsedTime: 58.0 seconds
+RetCode: 0
+Status: OK
+CheckDir: a4Preproc.Rcheck
+Warnings: 0

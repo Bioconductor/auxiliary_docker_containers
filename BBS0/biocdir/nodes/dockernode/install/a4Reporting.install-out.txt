@@ -1,0 +1,21 @@
+##############################################################################
+##############################################################################
+###
+### Running command:
+###
+###   /home/biocbuild/bbs-3.1-bioc/R/bin/R CMD INSTALL a4Reporting
+###
+##############################################################################
+##############################################################################
+
+
+* installing to library ‘/home/biocbuild/bbs-3.1-bioc/R/library’
+* installing *source* package ‘a4Reporting’ ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (a4Reporting)

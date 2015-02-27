@@ -1,0 +1,123 @@
+
+R Under development (unstable) (2015-02-23 r67879) -- "Unsuffered Consequences"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # test annotationTable functionality
+> 
+> library(a4Reporting)
+Loading required package: annaffy
+Loading required package: Biobase
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from 'package:stats':
+
+    xtabs
+
+The following objects are masked from 'package:base':
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, append,
+    as.data.frame, as.vector, cbind, colnames, do.call, duplicated,
+    eval, evalq, get, intersect, is.unsorted, lapply, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin, pmin.int, rank, rbind,
+    rep.int, rownames, sapply, setdiff, sort, table, tapply, union,
+    unique, unlist, unsplit
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: GO.db
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: GenomeInfoDb
+Loading required package: S4Vectors
+Loading required package: IRanges
+
+Attaching package: 'AnnotationDbi'
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    species
+
+Loading required package: DBI
+
+Loading required package: KEGG.db
+
+KEGG.db contains mappings based on older data because the original
+  resource was removed from the the public domain before the most
+  recent update was produced. This package should now be considered
+  deprecated and future versions of Bioconductor may not have it
+  available.  Users who want more current data are encouraged to look
+  at the KEGGREST or reactome.db packages
+
+> 
+> ## some dummy data
+> set.seed(123)
+> dData <- data.frame(someSymbol = LETTERS[1:5], 
++     accessionNumber = 
++         c("X83928", "V00540", "U21090", "L38487", "M34057"),
++     floats = rnorm(5))
+> 
+> at <- annotationTable(displayData = dData, 
++     displayCols = list(accessionNumber = "EntrezId"))
+> 
+> at
+annotationTable with hyperlink annotation for columns:
+someSymbol, accessionNumber, floats 
+
+  someSymbol accessionNumber      floats
+1          A          X83928 -0.56047565
+2          B          V00540 -0.23017749
+3          C          U21090  1.55870831
+4          D          L38487  0.07050839
+5          E          M34057  0.12928774
+> 
+> xat <- xtable(at, caption = "Example LaTeX table with Hyperlinks", digits = 3)
+> 
+> print(xat, include.rownames = FALSE) # OK
+% latex table generated in R 3.2.0 by xtable 1.7-4 package
+% Wed Feb 25 22:14:42 2015
+\begin{table}[ht]
+\centering
+\begin{tabular}{llr}
+  \hline
+someSymbol & accessionNumber & floats \\ 
+  \hline
+A & \href{http://www.ncbi.nlm.nih.gov/gene/X83928}{X83928} & -0.560 \\ 
+  B & \href{http://www.ncbi.nlm.nih.gov/gene/V00540}{V00540} & -0.230 \\ 
+  C & \href{http://www.ncbi.nlm.nih.gov/gene/U21090}{U21090} & 1.559 \\ 
+  D & \href{http://www.ncbi.nlm.nih.gov/gene/L38487}{L38487} & 0.071 \\ 
+  E & \href{http://www.ncbi.nlm.nih.gov/gene/M34057}{M34057} & 0.129 \\ 
+   \hline
+\end{tabular}
+\caption{Example LaTeX table with Hyperlinks} 
+\end{table}
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  3.983   0.086   4.095 

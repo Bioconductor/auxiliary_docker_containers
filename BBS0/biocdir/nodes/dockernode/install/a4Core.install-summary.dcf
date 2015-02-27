@@ -1,0 +1,8 @@
+Package: a4Core
+Version: 1.15.0
+Command: /home/biocbuild/bbs-3.1-bioc/R/bin/R CMD INSTALL a4Core
+StartedAt: 2015-02-25 18:09:07 -0800 (Wed, 25 Feb 2015)
+EndedAt: 2015-02-25 18:09:12 -0800 (Wed, 25 Feb 2015)
+EllapsedTime: 4.7 seconds
+RetCode: 0
+Status: OK

@@ -1,0 +1,11 @@
+* installing *source* package ‘a4’ ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+No man pages found in package  ‘a4’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (a4)

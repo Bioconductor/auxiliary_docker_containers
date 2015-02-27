@@ -1,0 +1,6 @@
+a4#source#propagate: YES
+a4Base#source#propagate: YES
+a4Classif#source#propagate: YES
+a4Core#source#propagate: YES
+a4Preproc#source#propagate: YES
+a4Reporting#source#propagate: YES

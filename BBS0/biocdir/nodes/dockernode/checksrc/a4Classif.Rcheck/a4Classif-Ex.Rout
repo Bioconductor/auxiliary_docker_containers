@@ -1,0 +1,226 @@
+
+R Under development (unstable) (2015-02-23 r67879) -- "Unsuffered Consequences"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "a4Classif"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> base::assign(".ExTimings", "a4Classif-Ex.timings", pos = 'CheckExEnv')
+> base::cat("name\tuser\tsystem\telapsed\n", file=base::get(".ExTimings", pos = 'CheckExEnv'))
+> base::assign(".format_ptime",
++ function(x) {
++   if(!is.na(x[4L])) x[1L] <- x[1L] + x[4L]
++   if(!is.na(x[5L])) x[2L] <- x[2L] + x[5L]
++   options(OutDec = '.')
++   format(x[1L:3L], digits = 7L)
++ },
++ pos = 'CheckExEnv')
+> 
+> ### * </HEADER>
+> library('a4Classif')
+Loading required package: a4Core
+Loading required package: Biobase
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:stats’:
+
+    xtabs
+
+The following objects are masked from ‘package:base’:
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, append,
+    as.data.frame, as.vector, cbind, colnames, do.call, duplicated,
+    eval, evalq, get, intersect, is.unsorted, lapply, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin, pmin.int, rank, rbind,
+    rep.int, rownames, sapply, setdiff, sort, table, tapply, union,
+    unique, unlist, unsplit
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: glmnet
+Loading required package: Matrix
+Loaded glmnet 1.9-8
+
+Loading required package: a4Preproc
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: GenomeInfoDb
+Loading required package: S4Vectors
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:Matrix’:
+
+    expand
+
+
+Attaching package: ‘AnnotationDbi’
+
+The following object is masked from ‘package:GenomeInfoDb’:
+
+    species
+
+Loading required package: MLInterfaces
+Loading required package: annotate
+Loading required package: XML
+
+Attaching package: ‘annotate’
+
+The following object is masked from ‘package:GenomeInfoDb’:
+
+    organism
+
+Loading required package: cluster
+Loading required package: ROCR
+Loading required package: gplots
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:IRanges’:
+
+    space
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: pamr
+Loading required package: survival
+Loading required package: varSelRF
+Loading required package: randomForest
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘randomForest’
+
+The following object is masked from ‘package:Biobase’:
+
+    combine
+
+The following object is masked from ‘package:BiocGenerics’:
+
+    combine
+
+
+a4Classif version 1.15.0
+
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("ROCcurve")
+> ### * ROCcurve
+> 
+> flush(stderr()); flush(stdout())
+> 
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ROCcurve
+> ### Title: Receiver operating curve
+> ### Aliases: ROCcurve
+> 
+> ### ** Examples
+> 
+> # simulated data set
+> esSim <- simulateData()
+> ROCcurve(probesetId = 'Gene.1', object = esSim, groups = 'type', addLegend = FALSE)
+> 
+> # ALL data set
+> if (require(ALL)){
++   data(ALL, package = "ALL")
++   ALL <- addGeneInfo(ALL)
++   ALL$BTtype <- as.factor(substr(ALL$BT,0,1))
++   ROCres <- ROCcurve(gene = "ABL1", object = ALL, groups = "BTtype")
++ }
+Loading required package: ALL
+Loading required package: hgu95av2.db
+Loading required package: org.Hs.eg.db
+Loading required package: DBI
+
+
+Warning in ROCcurve(gene = "ABL1", object = ALL, groups = "BTtype") :
+  Gene ABL1 corresponds to 6 probesets; only the first probeset ( 1635_at ) has been displayed on the plot.
+> 
+> 
+> 
+> base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+> base::cat("ROCcurve", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+> cleanEx()
+
+detaching ‘package:hgu95av2.db’, ‘package:org.Hs.eg.db’,
+  ‘package:RSQLite’, ‘package:DBI’, ‘package:ALL’
+
+> nameEx("lassoClass")
+> ### * lassoClass
+> 
+> flush(stderr()); flush(stdout())
+> 
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: lassoClass
+> ### Title: Classify using the Lasso
+> ### Aliases: lassoClass
+> ### Keywords: models
+> 
+> ### ** Examples
+> 
+> 
+> if (require(ALL)){
++   data(ALL, package = "ALL")
++   ALL <- addGeneInfo(ALL)
++   ALL$BTtype <- as.factor(substr(ALL$BT,0,1))
++ 
++   resultLasso <- lassoClass(object = ALL, groups = "BTtype")
++   plot(resultLasso, label = TRUE,
++     main = "Lasso coefficients in relation to degree of
++   penalization.")
++   featResultLasso <- topTable(resultLasso, n = 15)
++ }
+Loading required package: ALL
+Loading required package: hgu95av2.db
+Loading required package: org.Hs.eg.db
+> 
+> 
+> 
+> base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+> base::cat("lassoClass", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+> ### * <FOOTER>
+> ###
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  11.36 0.17 11.597 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')
