@@ -7,7 +7,7 @@ MAINTAINER dtenenba@fredhutch.org
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -qq && \
     DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
-        curl openssh-server python-pip rsync ssh
+        curl openssh-server python-pip rsync ssh zip
 
 # ssh stuff
 RUN mkdir /var/run/sshd
@@ -35,6 +35,7 @@ USER biocbuild
 
 RUN mkdir /home/biocbuild/.ssh /home/biocbuild/.BBS
 ADD id_rsa /home/biocbuild/.BBS/id_rsa
+chmod go-rwx /home/biocbuild/.BBS/id_rsa
 
 USER root
 
