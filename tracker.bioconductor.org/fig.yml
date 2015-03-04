@@ -18,4 +18,4 @@ web:
     volumes:
      - "roundup:/roundup"
      - "bioc_submit:/bioc_submit"
-    command: "sleep infinity"
+    command: "/start/start.sh" # "sleep infinity"
