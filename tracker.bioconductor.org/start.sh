@@ -26,3 +26,4 @@ rm -rf /tmp/*.log
 
 echo "starting server..."
 su - roundup -c 'cd /bioc_submit && roundup-server -n 0.0.0.0 bioc_submit=/bioc_submit'
+sleep infinity
