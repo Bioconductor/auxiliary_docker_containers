@@ -1,5 +1,5 @@
--Xms60m
--Xmx180m
+-Xms180m
+-Xmx360m
 -d64
 -Dswing.aatext=true
 -Dawt.useSystemAAFontSettings=lcd
