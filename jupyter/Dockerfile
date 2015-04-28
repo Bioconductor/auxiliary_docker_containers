@@ -20,6 +20,8 @@ RUN R -e "devtools::install_github('IRkernel/IRdisplay')"
 
 RUN R -e "devtools::install_github('IRkernel/IRkernel')"
 
+RUN R -e "biocLite('airway')"
+
 RUN R -e 'IRkernel::installspec()'
 
 RUN ipython profile create nbserver
