@@ -58,3 +58,19 @@ Then the web app is running. You can connect to it as follows:
   container that is used is not very secure (although no 
   ports are open to it on the host).
 
+# SOPs
+
+## What to do when the search engine returns no results
+
+The real solution is to figure out why this keeps happening and stop it from happening. Until then:
+
+Restart elasticsearch - log in to habu as a user with sudo privileges (contact Dan or Carl if you need this), then:
+
+    sudo /etc/init.d/elasticsearch restart
+    
+Then log in as (or become) the www-data user on habu and rebuild the search index:
+
+    cd ~/biostar-central
+    workon biostarsenv
+    source live/custom.env
+    ./biostar.sh index
