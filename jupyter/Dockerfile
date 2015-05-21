@@ -1,6 +1,6 @@
 FROM bioconductor/devel_sequencing
 
-RUN apt-get install -y python-dev libzmq3-dev libcurl4-openssl-dev
+RUN apt-get install -y python-dev libzmq3-dev libcurl4-openssl-dev libssl-dev
 
 EXPOSE 8888
 
