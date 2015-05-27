@@ -10,4 +10,5 @@ echo "redirecting import output to /dev/null to save some time..."
 ./biostar.sh import > /dev/null 2>&1
 ./biostar.sh index
 ./biostar.sh run
+sleep infinity
 
