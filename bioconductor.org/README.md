@@ -8,6 +8,16 @@ a directory called bioconductor.org. If you already have a working
 copy elsewhere on your disk, you can just provide the full path
 to it on the command line(s) below.
 
+## Prerequisites
+
+On Linux, you need Docker 
+[installed](https://docs.docker.com/installation/) and
+on [Mac](http://docs.docker.com/installation/mac/)
+or [Windows](http://docs.docker.com/installation/windows/)
+you need boot2docker installed and running.
+
+## Using the container
+
 In order to run this container, do the following:
 
 (If on linux, you may need to prepend all `docker` commands with `sudo`)
