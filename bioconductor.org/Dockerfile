@@ -6,7 +6,7 @@ EXPOSE 3000
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update && apt-get dist-upgrade -y && apt-get install -y \
-    curl g++ git libsqlite3-dev make patch python rsync subversion build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev libffi-dev
+    curl g++ git libsqlite3-dev make patch python rsync subversion build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev libffi-dev postgresql-server-dev-all
 
 # make ruby 2.0 the default
 #RUN for i in `ls /usr/bin/*2.0`; do  ln -sf $i `echo $i | tr -d 2.0`  ; done
