@@ -47,4 +47,4 @@ VOLUME /bioconductor.org
 
 WORKDIR /bioconductor.org
 
-CMD rake && adsf -r output
+CMD rake && adsf -r output && sleep infinity
