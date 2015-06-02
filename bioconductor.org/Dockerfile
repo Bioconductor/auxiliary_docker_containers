@@ -33,12 +33,12 @@ RUN pip install python-dateutil
 # RUN pip install apiclient? # for dashboard stuff
 
 
-
 RUN   cd /tmp && \
     curl -O https://raw.githubusercontent.com/Bioconductor/bioconductor.org/master/Gemfile && \
     curl -O https://raw.githubusercontent.com/Bioconductor/bioconductor.org/master/Gemfile.lock && \
     echo "gem: --no-document" > /etc/gemrc && \
     gem install bundler && \
+    bundle config build.pg --with-pg-lib=/usr/lib/postgresql/ --with-pg-include=/usr/include/postgresql/ && \
     bundle install
 
 RUN rbenv rehash
