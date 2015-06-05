@@ -74,3 +74,16 @@ Then log in as (or become) the www-data user on habu and rebuild the search inde
     workon biostarsenv
     source live/custom.env
     ./biostar.sh index
+    
+## You have made changes; how to propagate them to the live site?
+
+```
+ssh www-data@habu
+cd biostar-central/
+git pull
+exit
+ssh habu # ssh as yourself
+sudo apache2ctl restart
+```
+
+```
