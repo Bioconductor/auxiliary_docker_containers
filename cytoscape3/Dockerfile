@@ -1,10 +1,10 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.10
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get update && apt-get dist-upgrade -y 
 
 RUN apt-get install -y \
-    openjdk-7-jdk \
+    openjdk-8-jdk \
     Xvfb
 
 # FIXME - merge w/previous line
