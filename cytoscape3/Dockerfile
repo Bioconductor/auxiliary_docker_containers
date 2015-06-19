@@ -19,7 +19,7 @@ RUN curl -O http://chianti.ucsd.edu/cytoscape-3.2.1/cytoscape-3.2.1.tar.gz \
   mkdir -p /root/CytoscapeConfiguration/3/apps/installed
 
 
-ADD cyREST-v0.9.9.jar /root/CytoscapeConfiguration/3/apps/installed/
+ADD cyREST-v0.9.17.jar /root/CytoscapeConfiguration/3/apps/installed/
 
 CMD ./startx.sh && \
     export DISPLAY=:1.0 && \
