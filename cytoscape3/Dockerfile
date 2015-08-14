@@ -30,4 +30,5 @@ RUN echo "-Xmx128m" >> /cytoscape-unix-3.2.1/Cytoscape.vmoptions
 CMD ./startx.sh && \
     export DISPLAY=:1.0 && \
     cd /cytoscape-unix-3.2.1 && \
+    sleep 3 && \
     ./cytoscape.sh
