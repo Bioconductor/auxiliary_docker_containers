@@ -29,6 +29,7 @@ CMD cd / && \
     ./startx.sh && \
     export DISPLAY=:1.0 && \
     cd /cytoscape-2.8.0 && \
+    sleep 3 && \
     ./cytoscape.sh
 
 
