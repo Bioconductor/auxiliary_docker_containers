@@ -49,6 +49,7 @@ Then the web app is running. You can connect to it as follows:
 * You can log in with the email `0@foo.bar` and password `0@foo.bar`. This is an
   administrative user. You can also append `/admin` to the URL and log in
   to the admin webapp with this same account.
+* Alternatively, log in as `nobody@bioconductor.org` with password `foobar`.
 
 
 # NOTES
