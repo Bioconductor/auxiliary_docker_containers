@@ -1,7 +1,7 @@
 rabbitmq:
     image: "rabbitmq"
 mailcatcher:
-    image: "schickling/mailcatcher"
+    image: "dtenenba/mailcatcher"
     ports:
      - "1080:1080"
 elasticsearch:
