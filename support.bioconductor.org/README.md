@@ -8,7 +8,7 @@ Consists of four containers:
 * Elasticsearch container
 * RabbitMQ container
 
-[Fig](http://www.fig.sh/) is used to wire all these containers together.
+[Docker Compose](https://docs.docker.com/compose/) is used to wire all these containers together.
 
 To use:
 
@@ -18,7 +18,7 @@ To use:
   installs Docker.
 * [Install Docker](https://docs.docker.com/installation/) if you are
   on linux.
-* [Install fig](http://www.fig.sh/install.html)
+* [Install Docker Compose](https://docs.docker.com/compose/install/)
 
 Then:
 
@@ -32,9 +32,9 @@ environment variables as suggested.
 
 Then start the containers with:
 
-    fig up
+    docker-compose up
 
-(*NOTE*: `docker` and `fig` commands may need to be preceded with `sudo`.)
+(*NOTE*: `docker` and `docker-compose` commands may need to be preceded with `sudo`.)
 
 When you see the line 
 
@@ -65,11 +65,13 @@ Then the web app is running. You can connect to it as follows:
 
 The real solution is to figure out why this keeps happening and stop it from happening. Until then:
 
-Restart elasticsearch - log in to habu as a user with sudo privileges (contact Dan or Carl if you need this), then:
+Restart elasticsearch - log in to support.bioconductor.org 
+as ubuntu, then:
 
     sudo /etc/init.d/elasticsearch restart
     
-Then log in as (or become) the www-data user on habu and rebuild the search index:
+Then log in as (or become) the www-data user on 
+support.bioconductor.org and rebuild the search index:
 
     cd ~/biostar-central
     workon biostarsenv
@@ -79,12 +81,13 @@ Then log in as (or become) the www-data user on habu and rebuild the search inde
 ## You have made changes; how to propagate them to the live site?
 
 ```
-ssh www-data@habu
+ssh www-data@support.bioconductor.org
+# or ssh ubuntu@support.bioconductor.org and then:
+# sudo su - www-data
 cd biostar-central/
 git pull
 exit
-ssh habu # ssh as yourself
+ssh ubuntu@support.bioconductor.org
 sudo apache2ctl restart
 ```
 
-```
