@@ -16,6 +16,6 @@ web:
     ports:
      - "8080"
     volumes:
-     - "roundup:/roundup"
-     - "bioc_submit:/bioc_submit"
+     - "./roundup:/roundup"
+     - "./bioc_submit:/bioc_submit"
     command:  "/start/start.sh"
