@@ -14,7 +14,7 @@ EXPOSE 1234
  
 ADD startx.sh /
 
-RUN curl -O http://chianti.ucsd.edu/cytoscape-3.2.1/cytoscape-3.2.1.tar.gz \
+RUN curl -O curl -O http://s3.amazonaws.com/bioc-cytoscape/cytoscape-3.2.1.tar.gz \
   && tar zxf cytoscape-3.2.1.tar.gz && \
   mkdir -p /root/CytoscapeConfiguration/3/apps/installed
 
@@ -24,7 +24,7 @@ ADD cyREST-v0.9.17.jar /root/CytoscapeConfiguration/3/apps/installed/
 #RUN cp /cytoscape-unix-3.2.1/Cytoscape.vmoptions /cytoscape-unix-3.2.1/Cytoscape.vmoptions.bak
 
 RUN  echo "-Xms20m" > /cytoscape-unix-3.2.1/Cytoscape.vmoptions
-RUN echo "-Xmx128m" >> /cytoscape-unix-3.2.1/Cytoscape.vmoptions  
+RUN echo "-Xmx512m" >> /cytoscape-unix-3.2.1/Cytoscape.vmoptions  
 
 
 CMD ./startx.sh && \
