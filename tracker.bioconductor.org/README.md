@@ -2,7 +2,8 @@
 
 ## Prerequisites
 
-* Install [Docker](https://docs.docker.com/installation/) and [Fig](http://www.fig.sh/install.html) (and [boot2docker](http://boot2docker.io/) if you are on mac/windows)
+* Install [Docker](https://docs.docker.com/installation/), 
+[Docker Compose](https://docs.docker.com/compose/install/), (and [boot2docker](http://boot2docker.io/) if you are on mac/windows)
 * Install [mercurial](https://www.mercurial-scm.org/) (and [git](git-scm.com) if you don't already have it)
 
 There are two code bases for the issue tracker project. The first is the actual roundup
@@ -41,7 +42,7 @@ If you are on a mac or windows, you need to start boot2docker first.
 
 On all platforms, start the containers with:
 
-    fig up
+    docker-compose up
 
 In another window (where, if you are running Mac or Windows, you need to 
 initialize the `$DOCKER_HOST` variable), obtain the URL of the tracker 
