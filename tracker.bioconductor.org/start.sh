@@ -24,6 +24,8 @@ cat /start/init_tracker | roundup-admin -i /bioc_submit -u roundup
 
 rm -rf /tmp/*.log
 
+
+chown -R roundup /bioc_submit/db
 echo "starting server..."
 su - roundup -c 'cd /bioc_submit && roundup-server -n 0.0.0.0 bioc_submit=/bioc_submit'
 sleep infinity
