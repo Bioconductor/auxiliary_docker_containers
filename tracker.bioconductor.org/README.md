@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-* Install Docker and Fig (and boot2docker if you are on mac/windows)
-* Install mercurial (and git if you don't already have it)
+* Install [Docker](https://docs.docker.com/installation/) and [Fig](http://www.fig.sh/install.html) (and [boot2docker](http://boot2docker.io/) if you are on mac/windows)
+* Install [mercurial](https://www.mercurial-scm.org/) (and [git](git-scm.com) if you don't already have it)
 
 There are two code bases for the issue tracker project. The first is the actual roundup
 package which is stored in a Mercurial repository in SourceForge. Why? Because the 
