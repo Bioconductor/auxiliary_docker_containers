@@ -11,7 +11,7 @@ cat /tmp/start.sql | sed "s/MYSQL_REMOTE_PASSWORD/$MYSQL_REMOTE_PASSWORD/" |  my
 echo populate local database
 zcat /tmp/dump.sql.gz | mysql -u root --password=$MYSQL_ROOT_PASSWORD -h db annotationhub
 
-curl http://annotationhub.bioconductor.org/metadata/annotationhub.sqlite3 > AnnotationHubServer3.0/annotationhub.sqlite3
+curl http://annotationhub.bioconductor.org/metadata/annotationhub.sqlite3 > /AnnotationHubServer3.0/annotationhub.sqlite3
 
 cd /AnnotationHubServer3.0
 
