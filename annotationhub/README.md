@@ -15,7 +15,7 @@ You can set it by doing:
 
 where XXX is replaced with the correct password.
 
-[Install docker](https://docs.docker.com/installation/.
+[Install docker](https://docs.docker.com/installation/).
 If you are on Mac or Windows,
 install [docker toolbox](https://www.docker.com/toolbox)
 instead.
