@@ -9,6 +9,11 @@ Bioconductor Cloud resources".
 
 The container will not work properly unless this is set.
 
+You can set it by doing:
+
+    export MYSQL_REMOTE_PASSWORD=XXX
+
+where XXX is replaced with the correct password.
 
 [Install docker](https://docs.docker.com/installation/.
 If you are on Mac or Windows,
@@ -68,4 +73,49 @@ your Docker host's IP address is
 
 If this returns `1.2.3.4`, your URL would be
 `http://1.2.3.4:3000/resource`.
+
+## Using the container
+
+Start a new R session in a new terminal window. 
+Assuming your server URL 
+is `http://1.2.3.4:3000/resource`, enter the following
+at the R prompt:
+
+    options(AH_SERVER_POST_URL="http://1.2.3.4:3000/resource",
+    ANNOTATION_HUB_URL="http://1.2.3.4:3000")
+
+Replace the URL with your actual URL, of course.
+Now you can load `AnnotationHub` and `AnnotationHubData`.
+
+Now you can run recipes, etc. and the insertions will
+happen inside the docker container, not in the production
+database.
+
+When you are satisfied that the changes you have made are 
+correct, you can update the production database (see next
+section). If you have messed up and you don't want to
+push your changes to production, you can just exit
+the container (press Control-C in the window where it is
+running) and start over again.
+
+## Pushing changes to production
+
+You need to back up the database inside the docker 
+container. You can do it like this:
+
+     docker exec annotationhub_annotationhub_1 bash /bin/backup_db.sh
+
+Note that `annotationhub_annotationhub_1` is the name of the
+docker container that has the annotation hub server on it; this
+name may vary, the `docker ps` command will give you the
+accurate container name.
+
+Now in the `data` directory on your local machine, 
+there is a file called `annotationhub.sql.gz`. You 
+can upload this to the production machine and
+use it to replace the production database
+(after backing it up).
+
+
+
 

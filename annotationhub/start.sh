@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ -z "${MYSQL_REMOTE_PASSWORD}" ]; then
+    echo "MYSQL_REMOTE_PASSWORD is not set; exiting!"
+    echo "(see README.md)"
+    exit 1
+fi
+
 cd /tmp
 
 echo get database from master

@@ -40,4 +40,6 @@ RUN echo hi1
 ADD start.sh /tmp/start.sh
 ADD start.sql /tmp/start.sql
 ADD config.yml /tmp/config.yml
+ADD backup_db.sh /bin/backup_db.sh
+
 
