@@ -1,5 +1,18 @@
 # Docker Container for AnnotationHub Server
 
+## Important Note
+
+The way this Docker Container is currently set up,
+it can only be used by Bioconductor core members
+who have access to the production server
+and know its credentials.
+
+It should probably change so it can be used by
+anyone who wants to test recipes. But that
+is not going to happen right away.
+
+
+
 ## Prerequisites
 
 Set the environment variable `MYSQL_REMOTE_PASSWORD` to
