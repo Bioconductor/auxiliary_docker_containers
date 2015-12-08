@@ -12,7 +12,7 @@ annotationhub:
     ports:
      - "3000:3000"
     volumes:
-     - "AnnotationHubServer3.0:/AnnotationHubServer3.0"
-     - "data:/data"
+     - "./AnnotationHubServer3.0:/AnnotationHubServer3.0"
+     - "./data:/data"
     command:  "/tmp/start.sh"
 
