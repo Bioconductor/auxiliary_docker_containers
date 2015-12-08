@@ -74,6 +74,9 @@ To verify that it is running, you can determine its URL
 If you are on linux, the URL of the server is likely
 [http://localhost:3000/resource](http://localhost:3000/resource).
 
+If you are in the cloud you need to use the public DNS name of your instance
+as your IP address.
+
 If you are using boot2docker (deprecated by Docker Toolbox),
 you can determine your Docker host's IP address with the command
 `boot2docker ip`. If this returns `1.2.3.4`, your URL
