@@ -1,3 +1,4 @@
+
 # Docker Container for AnnotationHub Server
 
 ## Important Note
@@ -11,9 +12,20 @@ It should probably change so it can be used by
 anyone who wants to test recipes. But that
 is not going to happen right away.
 
+## Table of Contents
 
+- [Setting up the docker container](#setup)
+	- [Prerequisites](#prerequisites)
+    - [Run the continer](#run)
+	- [Determine URL of server](#url)
+- [Using the container](#use)
+- [Pushing changes to production](#push)
 
-## Prerequisites
+<a name="setup"></a>
+## Setting up the docker container
+
+<a name="prerequisites"></a>
+### Prerequisites
 
 Set the environment variable `MYSQL_REMOTE_PASSWORD` to
 the correct value, found in the "AnnotationHub production
@@ -47,8 +59,8 @@ on your system, make a symbolic link to it in the current directory
 Create a directory called "data" in the same directory as
 this README.
 
-
-## To Run The Container
+<a name="run"></a>
+### Run The Container
 
 Open a terminal window (a Docker Quickstart Terminal if
 you are on Mac or windows) and change to the same
@@ -69,7 +81,8 @@ When you see a line like this:
 To verify that it is running, you can determine its URL
 (in the next section).
 
-## Determining URL of server
+<a name="url"></a>
+### Determining URL of server
 
 If you are on linux, the URL of the server is likely
 [http://localhost:3000/resource](http://localhost:3000/resource).
@@ -90,6 +103,7 @@ your Docker host's IP address is
 If this returns `1.2.3.4`, your URL would be
 `http://1.2.3.4:3000/resource`.
 
+<a name="use"></a>
 ## Using the container
 
 Start a new R session in a new terminal window. 
@@ -114,6 +128,7 @@ push your changes to production, you can just exit
 the container (press Control-C in the window where it is
 running) and start over again.
 
+<a name="push"></a>
 ## Pushing changes to production
 
 You need to back up the database inside the docker 
