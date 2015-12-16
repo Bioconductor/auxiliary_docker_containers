@@ -35,7 +35,7 @@ RUN cd /tmp && curl -LO https://raw.githubusercontent.com/Bioconductor/Annotatio
 
 ENV AHS_DATABASE_TYPE mysql
 
-RUN echo hi1
+RUN echo hi2
 
 ADD start.sh /tmp/start.sh
 ADD start.sql /tmp/start.sql
