@@ -19,6 +19,7 @@ is not going to happen right away.
     - [Run the continer](#run)
 	- [Determine URL of server](#url)
 - [Using the container](#use)
+- [Testing the changes](#test)
 - [Pushing changes to production](#push)
 
 <a name="setup"></a>
@@ -111,16 +112,54 @@ Assuming your server URL
 is `http://1.2.3.4:3000/resource`, enter the following
 at the R prompt:
 
-    options(AH_SERVER_POST_URL="http://1.2.3.4:3000/resource",
-    ANNOTATION_HUB_URL="http://1.2.3.4:3000")
+    options(AH_SERVER_POST_URL="http://1.2.3.4:3000/resource") ## used by AnnotationHubData to insert
+    options(ANNOTATION_HUB_URL="http://1.2.3.4:3000")          ## used by AnnotationHub to get current metadata
 
-Replace the URL with your actual URL, of course.
-Now you can load `AnnotationHub` and `AnnotationHubData`.
+Replace the URL with your actual URL, of course. These options must be set before loading `AnnotationHub` and `AnnotationHubData`.
+
+	library(AnnotationHub)
+	library(AnnotationHubData)
 
 Now you can run recipes, etc. and the insertions will
 happen inside the docker container, not in the production
 database.
 
+<a name="test"></a>
+## Testing the changes
+
+You can interact with the modified db in the docker container via R or mysql.
+
+#### R session
+
+First convert the mysql db to sqlite. From another terminal window do
+
+	docker exec -ti annotationhub_annotationhub_1 bash
+
+That will log you in to the annotationhub server container. Then do the following:
+
+	cd /AnnotationHubServer3.0/
+	ruby convert_db.rb 
+
+That will convert the mysql database to sqlite. You can then type
+
+	exit
+	
+to exit the container, start R and set the variables as described in [Using the container](#use). AnnotationHub should recognize that there are changes and download the new sqlite database, but if not you can remove the old one from your cache to trigger a copy.
+
+#### mysql session
+
+mysql is not exposed to the host, so you need to do this from the mysql machine. Run
+
+	docker ps
+	
+to see a list of containers that are running. One will have the string 'db' in it. Let's say the full name is 'db1'. Connect to the container with:
+
+	docker exec -ti db_1 bash
+
+From within the resulting prompt start mysql and query the db as usual:
+
+	mysql -p -u ahuser
+	
 When you are satisfied that the changes you have made are 
 correct, you can update the production database (see next
 section). If you have messed up and you don't want to
