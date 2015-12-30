@@ -112,8 +112,8 @@ Assuming your server URL
 is `http://1.2.3.4:3000/resource`, enter the following
 at the R prompt:
 
-    options(AH_SERVER_POST_URL="http://1.2.3.4:3000/resource") ## used by AnnotationHubData to insert
-    options(ANNOTATION_HUB_URL="http://1.2.3.4:3000")          ## used by AnnotationHub to get current metadata
+    options(AH_SERVER_POST_URL="http://1.2.3.4:3000/resource") ## used by AnnotationHubData to insert metadata
+    options(ANNOTATION_HUB_URL="http://1.2.3.4:3000")          ## used by AnnotationHub to get metadata
 
 Replace the URL with your actual URL, of course. These options must be set before loading `AnnotationHub` and `AnnotationHubData`.
 
@@ -127,11 +127,11 @@ database.
 <a name="test"></a>
 ## Testing the changes
 
-You can interact with the modified db in the docker container via R or mysql.
+You can interact with the docker db with R or mysql.
 
 #### R session
 
-First convert the mysql db to sqlite. From another terminal window do
+To view the docker db from R you must first convert the mysql db to sqlite. From another terminal window do
 
 	docker exec -ti annotationhub_annotationhub_1 bash
 
@@ -181,11 +181,19 @@ name may vary, the `docker ps` command will give you the
 accurate container name.
 
 Now in the `data` directory on your local machine, 
-there is a file called `annotationhub.sql.gz`. You 
-can upload this to the production machine and
-use it to replace the production database
-(after backing it up).
+there is a file called `annotationhub.sql.gz`. Upload this to the production machine.
 
+Log into the production machine and make a backup of production db:
 
+    mysqldump -p -u ahuser annotationhub | gzip > dbdump_YYYY_MM_DD_fromProd.sql.gz
 
+Drop the old db and create an empty one:
 
+    mysql -p -u root
+    drop database annotationhub;
+    create database annotationhub;
+    quit;
+
+Fill the empty with the modified db:
+
+    zcat dbdump_YYYY_MM_DD_fromDocker.sql.gz | mysql -p -u root annotationhub
