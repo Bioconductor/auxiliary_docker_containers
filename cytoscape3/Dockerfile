@@ -24,7 +24,7 @@ ADD cyREST-v0.9.17.jar /root/CytoscapeConfiguration/3/apps/installed/
 #RUN cp /cytoscape-unix-3.2.1/Cytoscape.vmoptions /cytoscape-unix-3.2.1/Cytoscape.vmoptions.bak
 
 RUN  echo "-Xms20m" > /cytoscape-unix-3.2.1/Cytoscape.vmoptions
-RUN echo "-Xmx512m" >> /cytoscape-unix-3.2.1/Cytoscape.vmoptions  
+RUN echo "-Xmx1024m" >> /cytoscape-unix-3.2.1/Cytoscape.vmoptions  
 
 
 CMD ./startx.sh && \
