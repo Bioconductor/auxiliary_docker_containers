@@ -1,9 +1,9 @@
 # first set of machines
-windows1cytoscape3:
+moscato1cytoscape3:
     image: "dtenenba/cytoscape3"
     ports:
      - "9291:1234"
-windows164cytoscape3:
+moscato164cytoscape3:
     image: "dtenenba/cytoscape3"
     ports:
      - "9292:1234"
@@ -11,31 +11,27 @@ oaxacacytoscape3:
     image: "dtenenba/cytoscape3"
     ports:
      - "9293:1234"
-percevalcytoscape3:
-    image: "dtenenba/cytoscape3"
-    ports:
-     - "9294:1234"
-linux1cytoscape3:
+# percevalcytoscape3:
+#     image: "dtenenba/cytoscape3"
+#     ports:
+#      - "9294:1234"
+zin1cytoscape3:
     image: "dtenenba/cytoscape3"
     ports:
      - "9295:1234"
 # second set of machines
-# linux2cytoscape3:
-#     image: "dtenenba/cytoscape3"
-#     ports: 
-#      - "9296:1234"
-# pettycytoscape3:
-#     image: "dtenenba/cytoscape3"
-#     ports:
-#      - "9297:1234"
-# windows2cytoscape3:
-#     image: "dtenenba/cytoscape3"
-#     ports: 
-#      - "9298:1234"
-# windows264cytoscape3:
-#     image: "dtenenba/cytoscape3"
-#     ports:
-#      - "9299:1234"
+zin2cytoscape3:
+    image: "dtenenba/cytoscape3"
+    ports: 
+     - "9296:1234"
+moscato2cytoscape3:
+    image: "dtenenba/cytoscape3"
+    ports: 
+     - "9298:1234"
+moscato264cytoscape3:
+    image: "dtenenba/cytoscape3"
+    ports:
+     - "9299:1234"
 # moreliacytoscape3:
 #     image: "dtenenba/cytoscape3"
 #     ports:
