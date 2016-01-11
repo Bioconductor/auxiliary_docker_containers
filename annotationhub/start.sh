@@ -9,7 +9,7 @@ fi
 cd /tmp
 
 echo get database from master
-mysqldump --lock-tables=false --password=$MYSQL_REMOTE_PASSWORD -u ahuser_readonly -h annotationhub.bioconductor.org annotationhub | gzip > /tmp/dump.sql.gz
+mysqldump --lock-tables=false --password=$MYSQL_REMOTE_PASSWORD -u hubuser_readonly -h annotationhub.bioconductor.org annotationhub | gzip > /tmp/dump.sql.gz
 
 echo create local database and user
 cat /tmp/start.sql | sed "s/MYSQL_REMOTE_PASSWORD/$MYSQL_REMOTE_PASSWORD/" |  mysql -u root --password=$MYSQL_ROOT_PASSWORD -h db
