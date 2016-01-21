@@ -1,2 +1,2 @@
-mysql_url: "mysql://ahuser:MYSQL_REMOTE_PASSWORD@db/annotationhub"
+mysql_url: "mysql://root:MYSQL_ROOT_PASSWORD@db/annotationhub"
 sqlite_filename: "annotationhub.sqlite3"

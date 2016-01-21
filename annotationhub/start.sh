@@ -12,7 +12,7 @@ echo get database from master
 mysqldump --lock-tables=false --password=$MYSQL_REMOTE_PASSWORD -u hubuser_readonly -h annotationhub.bioconductor.org annotationhub | gzip > /tmp/dump.sql.gz
 
 echo create local database and user
-cat /tmp/start.sql | sed "s/MYSQL_REMOTE_PASSWORD/$MYSQL_REMOTE_PASSWORD/" |  mysql -u root --password=$MYSQL_ROOT_PASSWORD -h db
+cat /tmp/start.sql | mysql -u root --password=$MYSQL_ROOT_PASSWORD -h db
 
 echo populate local database
 zcat /tmp/dump.sql.gz | mysql -u root --password=$MYSQL_ROOT_PASSWORD -h db annotationhub
@@ -21,7 +21,7 @@ curl https://annotationhub.bioconductor.org/metadata/annotationhub.sqlite3 > /An
 
 cd /AnnotationHubServer3.0
 
-cat /tmp/config.yml | sed "s/MYSQL_REMOTE_PASSWORD/$MYSQL_REMOTE_PASSWORD/" > config.yml
+cat /tmp/config.yml | sed "s/MYSQL_ROOT_PASSWORD/$MYSQL_ROOT_PASSWORD/" > config.yml
 
 echo start app
 #ruby app.rb

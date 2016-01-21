@@ -158,7 +158,7 @@ to see a list of containers that are running. One will have the string 'db' in i
 
 From within the resulting prompt start mysql and query the db as usual:
 
-	mysql -p -u ahuser
+	mysql --password=$MYSQL_ROOT_PASSWORD -u root
 	
 When you are satisfied that the changes you have made are 
 correct, you can update the production database (see next
@@ -185,7 +185,7 @@ there is a file called `annotationhub.sql.gz`. Upload this to the production mac
 
 Log into the production machine and make a backup of production db:
 
-    mysqldump -p -u ahuser annotationhub | gzip > dbdump_YYYY_MM_DD_fromProd.sql.gz
+    mysqldump --password=$MYSQL_ROOT_PASSWORD -u root annotationhub | gzip > dbdump_YYYY_MM_DD_fromProd.sql.gz
 
 Drop the old db and create an empty one:
 
