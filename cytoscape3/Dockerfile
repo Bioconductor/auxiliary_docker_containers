@@ -20,7 +20,7 @@ RUN curl -O curl -O http://s3.amazonaws.com/bioc-cytoscape/cytoscape-3.3.0.tar.g
 
 
 RUN curl https://s3.amazonaws.com/bioc-cytoscape/cy-rest-3.3.1.jar > \
-  /root/CytoscapeConfiguration/3/apps/installed
+  /root/CytoscapeConfiguration/3/apps/installed/cy-rest-3.3.1.jar
 
 
 #RUN cp /cytoscape-unix-3.3.0/Cytoscape.vmoptions /cytoscape-unix-3.3.0/Cytoscape.vmoptions.bak
