@@ -17,7 +17,7 @@ web:
         ELASTICSEARCH: "http://elasticsearch:9200/"
     image: "dtenenba/support.bioconductor.org"
     volumes:
-     - "biostar-central:/biostar-central"
+     - "./biostar-central:/biostar-central"
     command: "/conf/start.sh"
     ports:
      - "8080"
