@@ -41,12 +41,13 @@ You can set it by doing:
 
 where XXX is replaced with the correct password.
 
-[Install docker](https://docs.docker.com/installation/).
-If you are on Mac or Windows,
-install [docker toolbox](https://www.docker.com/toolbox)
-instead.
-
-Also install [Docker Compose](https://docs.docker.com/compose/install/).
+If you are on Linux, install docker using 
+[Docker Engine](https://docs.docker.com/installation/). Also install 
+[Docker Compose](https://docs.docker.com/compose/install/).
+If you are on Mac or Windows, install Docker Desktop instead. You will not need 
+to install Docker Compose because it is included in Docker Desktop.
+[Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/),
+[Docker Dekstop for Windows](https://docs.docker.com/docker-for-windows/install/).
 
 Clone the AnnotationHubServer3.0 code to the same directory as 
 this README:
