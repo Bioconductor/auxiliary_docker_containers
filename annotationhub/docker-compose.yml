@@ -1,18 +1,21 @@
-db:
-    image: "mysql"
-    environment:
-        MYSQL_ROOT_PASSWORD: mysecretpassword
-annotationhub:
-    environment:
-        MYSQL_ROOT_PASSWORD: mysecretpassword
-        MYSQL_REMOTE_PASSWORD: 
-    image: "dtenenba/annotationhubserver"
-    links:
-     - "db"
-    ports:
-     - "3000:3000"
-    volumes:
-     - "./AnnotationHubServer3.0:/AnnotationHubServer3.0"
-     - "./data:/data"
-    command:  "/tmp/start.sh"
+version: "3.7"
+services:
+
+    db:
+        image: "mysql:5.7"
+        environment:
+            MYSQL_ROOT_PASSWORD: mysecretpassword
+    annotationhub:
+        environment:
+            MYSQL_ROOT_PASSWORD: mysecretpassword
+            MYSQL_REMOTE_PASSWORD:
+        image: "dtenenba/annotationhubserver"
+        links:
+         - "db"
+        ports:
+         - "3000:3000"
+        volumes:
+         - "./AnnotationHubServer3.0:/AnnotationHubServer3.0"
+         - "./data:/data"
+        command:  "/tmp/start.sh"
 
